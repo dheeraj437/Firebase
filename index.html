@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-	
-	title>Firebase Login</title>
+<html>
+<head>
+  <title>Firebase Login</title>
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://dl.dropbox.com/s/kmywa5yqxd04icy/style.css" />
+</head>
+<body>
 
-
-<div id="login_div" class="main-div">
+  <div id="login_div" class="main-div">
     <h3> Web login </h3>
     <input type="email" placeholder="Email..." id="email_field" />
     <input type="password" placeholder="Password..." id="password_field" />
@@ -16,9 +16,7 @@
 
   <div id="user_div" class="loggedin-div">
     <h3>Welcome Admin</h3>
-
-<head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CRUD Firebase</title>
@@ -208,4 +206,30 @@
 	<script src="js/script.js"></script>
 </body>
 
+</html>
+
+        <script src="https://dl.dropbox.com/s/ev91xriftqo3lk5/custom.js?dl=0"></script>
+</body>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDLMszyq1Jize6o_39X6Y5eMBzl_6_0eeE",
+      authDomain: "aptsa-abc0c.firebaseapp.com",
+      databaseURL: "https://aptsa-abc0c.firebaseio.com",
+      projectId: "aptsa-abc0c",
+      storageBucket: "aptsa-abc0c.appspot.com",
+      messagingSenderId: "419648343238"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="https://dl.dropbox.com/s/6b7fvuuori7bdy6/index.js"></script>
+
+</body>
 </html>
