@@ -64,7 +64,6 @@ $(document).ready(function () {
         <td>${document.data().account}</td>
         <td>${document.data().ifsc}</td>
         <td>${document.data().bank}</td>
-        <td>${document.data().ration}</td>
         <td>
             <a href="#" id="${document.id}" class="edit js-edit-employee"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
             </a>
@@ -107,10 +106,10 @@ $(document).ready(function () {
                 survey: $('#employee-survey').val(),
                 crop: $('#employee-crop').val(),
                 phone: $('#employee-phone').val(),
+                aadhaar: $('#employee-aadhaar').val(),
                 account: $('#employee-account').val(),
                 ifsc: $('#employee-ifsc').val(),
-                bank: $('#employee-bank').val(),
-                ration: $('#employee-ration').val()
+                bank: $('#employee-bank').val()
             }).then(function () {
                 console.log("Document successfully written!");
                 $("#addEmployeeModal").modal('hide');
