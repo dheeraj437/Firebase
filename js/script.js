@@ -159,10 +159,11 @@ $(document).ready(function () {
         $('#edit-employee-form').attr('edit-id', id);
         db.collection('employees').doc(id).get().then(function (document) {
             if (document.exists) {
-                $('#edit-employee-form #employee-name').val(document.data().name);
-                $('#edit-employee-form #employee-email').val(document.data().email);
-                $('#edit-employee-form #employee-address').val(document.data().address);
+                $('#edit-employee-form #employee-crop').val(document.data().crop);
                 $('#edit-employee-form #employee-phone').val(document.data().phone);
+                $('#edit-employee-form #employee-account').val(document.data().account);
+                $('#edit-employee-form #employee-ifsc').val(document.data().ifsc);
+                $('#edit-employee-form #employee-bank').val(document.data().bank);
                 $('#editEmployeeModal').modal('show');
             } else {
                 console.log("No such document!");
@@ -176,10 +177,11 @@ $(document).ready(function () {
         event.preventDefault();
         let id = $(this).attr('edit-id');
         db.collection('employees').doc(id).update({
-            name: $('#edit-employee-form #employee-name').val(),
-            email: $('#edit-employee-form #employee-email').val(),
-            address: $('#edit-employee-form #employee-address').val(),
-            phone: $('#edit-employee-form  #employee-phone').val()
+            crop: $('#edit-employee-form #employee-crop').val(),
+            phone: $('#edit-employee-form #employee-phone').val(),
+            account: $('#edit-employee-form #employee-account').val(),
+            ifsc: $('#edit-employee-form  #employee-ifsc').val(),
+            bank: $('#edit-employee-form  #employee-bank').val()
         });
         $('#editEmployeeModal').modal('hide');
     });
