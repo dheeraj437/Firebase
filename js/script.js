@@ -55,9 +55,16 @@ $(document).ready(function () {
             </span>
         </td>
         <td>${document.data().name}</td>
-        <td>${document.data().email}</td>
-        <td>${document.data().address}</td>
+        <td>${document.data().father}</td>
+        <td>${document.data().khata}</td>
+        <td>${document.data().survey}</td>
+        <td>${document.data().crop}</td>
         <td>${document.data().phone}</td>
+        <td>${document.data().aadhaar}</td>
+        <td>${document.data().account}</td>
+        <td>${document.data().ifsc}</td>
+        <td>${document.data().bank}</td>
+        <td>${document.data().ration}</td>
         <td>
             <a href="#" id="${document.id}" class="edit js-edit-employee"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
             </a>
@@ -95,9 +102,15 @@ $(document).ready(function () {
         event.preventDefault();
         db.collection('employees').add({
                 name: $('#employee-name').val(),
-                email: $('#employee-email').val(),
-                address: $('#employee-address').val(),
-                phone: $('#employee-phone').val()
+                father: $('#employee-father').val(),
+                khata: $('#employee-khata').val(),
+                survey: $('#employee-survey').val(),
+                crop: $('#employee-crop').val(),
+                phone: $('#employee-phone').val(),
+                account: $('#employee-account').val(),
+                ifsc: $('#employee-ifsc').val(),
+                bank: $('#employee-bank').val(),
+                ration: $('#employee-ration').val()
             }).then(function () {
                 console.log("Document successfully written!");
                 $("#addEmployeeModal").modal('hide');
