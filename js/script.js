@@ -3,7 +3,7 @@ $(document).ready(function () {
     let lastVisible;
     let firstVisible;
     // REAL TIME LISTENER
-    db.collection('s8q8GiF6Ap3oEsyd8cqt').onSnapshot(snapshot => {
+    db.collection('https://aptsa-abc0c.firebaseio.com/employees/s8q8GiF6Ap3oEsyd8cqt').onSnapshot(snapshot => {
         let size = snapshot.size;
         $('.count').text(size);
         if (size == 0) {
@@ -213,7 +213,7 @@ $(document).ready(function () {
             return false;
         }
         $('#employee-table tbody').html('');
-        var next = db.collection("s8q8GiF6Ap3oEsyd8cqt")
+        var next = db.collection("https://aptsa-abc0c.firebaseio.com/employees/s8q8GiF6Ap3oEsyd8cqt")
             .startAfter(lastVisible)
             .limit(3);
         next.get().then(function (documentSnapshots) {
