@@ -3,7 +3,7 @@ $(document).ready(function () {
     let lastVisible;
     let firstVisible;
     // REAL TIME LISTENER
-    db.collection('employees').onSnapshot(snapshot => {
+    db.collection('https://aptsa-abc0c.firebaseio.com/').onSnapshot(snapshot => {
         let size = snapshot.size;
         $('.count').text(size);
         if (size == 0) {
@@ -213,7 +213,7 @@ $(document).ready(function () {
             return false;
         }
         $('#employee-table tbody').html('');
-        var next = db.collection("employees")
+        var next = db.collection("https://aptsa-abc0c.firebaseio.com/")
             .startAfter(lastVisible)
             .limit(3);
         next.get().then(function (documentSnapshots) {
