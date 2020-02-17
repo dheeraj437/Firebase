@@ -1,4 +1,4 @@
-body {margin:0px; font-family:Arial}
+body {margin:0px; font-family: New Century Schoolbook, TeX Gyre Schola, serif}
 
 .topnav {
   overflow: hidden;
@@ -12,7 +12,7 @@ body {margin:0px; font-family:Arial}
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .active {
