@@ -1,4 +1,4 @@
-body {margin-left:400px; margin-right: 400px; font-family:Arial}
+body {margin:0px; font-family:Arial}
 
 .topnav {
   overflow: hidden;
@@ -81,10 +81,6 @@ body {margin-left:400px; margin-right: 400px; font-family:Arial}
     display: block;
   }
 }
-
-@media screen and (max-width: 600px) {
-
-body {margin-left:0px; margin-right: 0px; font-family:Arial}
 
 
 @media screen and (max-width: 600px) {
