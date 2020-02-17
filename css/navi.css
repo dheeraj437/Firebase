@@ -22,6 +22,7 @@ body {margin:0px; font-family: New Century Schoolbook, TeX Gyre Schola, serif}
 
 .topnav .icon {
   display: none;
+  background-color: #4CAF50;
 }
 
 .dropdown {
@@ -59,7 +60,7 @@ body {margin:0px; font-family: New Century Schoolbook, TeX Gyre Schola, serif}
 }
 
 .topnav a:hover, .dropdown:hover {
-  background-color: #555;
+  background-color: #4CAF50;
   color: white;
 }
 
