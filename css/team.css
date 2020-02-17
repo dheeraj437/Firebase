@@ -17,7 +17,7 @@ body{
 }
 
 .team{
-	min-height: 100vh;
+	min-height: 1000px;
 	padding:60px 15px;
 	background-color:white; 
 	float: left;
@@ -27,7 +27,7 @@ body{
 	font-size: 36px;
 	font-family: open sans;
 	font-weight: 700;
-	color:#ffffff;
+	color:black;
 	margin:0;
 	padding-bottom:60px;
 	text-align: center;
