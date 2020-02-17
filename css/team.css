@@ -17,7 +17,7 @@ body{
 }
 
 .team{
-	min-height: 700px;
+	min-height: 500px;
 	padding:60px 15px;
 	background-color:white; 
 	float: left;
@@ -95,7 +95,7 @@ body{
 
 @media(max-width:550px){
 	.team .card{
-		width:100%;
+		width:50%;
 	}
 }
 
