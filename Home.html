@@ -75,68 +75,37 @@
 </body>
 <h2 style="text-align:center"></h2>
 <link rel="stylesheet" href="css/homegallery.css">
-<script src="js/homegallery.js"></script>
-<div class="row1">
-  <div class="column1">
-    <img src="images/01.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column1">
-    <img src="images/02.jpeg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column1">
-    <img src="images/03.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column1">
-    <img src="images/04.jpeg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-</div>
+<div class="slidershow middle">
 
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="01.jpeg" alt="">
+        </div>
+        <div class="slide">
+          <img src="02.jpeg" alt="">
+        </div>
+        <div class="slide">
+          <img src="03.jpeg" alt="">
+        </div>
+        <div class="slide">
+          <img src="04.jpeg" alt="">
+        </div>
+      </div>
 
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="images/01.jpeg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="images/02.jpeg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="images/03.jpeg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="images/04.jpeg" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+        <label for="r4" class="bar"></label>
+        <label for="r5" class="bar"></label>
+      </div>
     </div>
 
-
-    <div class="column1">
-      <img class="demo cursor" src="images/01.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-    </div>
-    <div class="column1">
-      <img class="demo cursor" src="images/02.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
-    </div>
-    <div class="column1">
-      <img class="demo cursor" src="images/03.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column1">
-      <img class="demo cursor" src="images/04.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-  </div>
-</div>
 </body>
 
 <link rel="stylesheet" href="css/footer.css">
