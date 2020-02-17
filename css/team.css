@@ -19,7 +19,7 @@ body{
 
 .team{
 	min-height: 500px;
-	padding:60px 15px;
+	padding:30px 15px;
 	background-color:white; 
 	float: left;
 	width: 100%;
@@ -30,7 +30,7 @@ body{
 	font-weight: 700;
 	color:black;
 	margin:0;
-	padding-bottom:60px;
+	padding-bottom:30px;
 	text-align: center;
 }
 .team .card{
