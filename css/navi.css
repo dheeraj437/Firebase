@@ -58,7 +58,7 @@ body {margin:0px; font-family: New Century Schoolbook, TeX Gyre Schola, serif}
   text-align: left;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover, .dropdown:hover {
   background-color: #555;
   color: white;
 }
