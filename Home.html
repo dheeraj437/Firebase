@@ -75,38 +75,52 @@
 </body>
 
 
-<div class="slidershow middle">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-grid.css">
 
-      <div class="slides">
-        <input type="radio" name="r" id="r1" checked>
-        <input type="radio" name="r" id="r2">
-        <input type="radio" name="r" id="r3">
-        <input type="radio" name="r" id="r4">
-        <input type="radio" name="r" id="r5">
-        <div class="slide s1">
-          <img src="images/01.jpeg" alt="">
-        </div>
-        <div class="slide">
-          <img src="images/02.jpeg" alt="">
-        </div>
-        <div class="slide">
-          <img src="images/03.jpeg" alt="">
-        </div>
-        <div class="slide">
-          <img src="images/04.jpeg" alt="">
-        </div>
-      </div>
+      <div class="container gallery-container">
 
-      <div class="navigation">
-        <label for="r1" class="bar"></label>
-        <label for="r2" class="bar"></label>
-        <label for="r3" class="bar"></label>
-        <label for="r4" class="bar"></label>
-        <label for="r5" class="bar"></label>
-      </div>
+    <h1>Bootstrap 3 Gallery</h1>
+
+    <p class="page-description text-center">Grid Layout With Zoom Effect</p>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/park.jpg">
+                    <img src="images/01.jpeg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/bridge.jpg">
+                    <img src="images/02.jpeg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="../images/tunnel.jpg">
+                    <img src="images/03.jpeg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/coast.jpg">
+                    <img src="images/04.jpeg" alt="Coast">
+                </a>
+            </div>
+        </div>
+
     </div>
-<link rel="stylesheet" href="css/homegallery.css">
-<link rel="stylesheet" href="css/footer.css">
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+	
+	<link rel="stylesheet" href="css/footer.css">
       <div class="telugu">
       <div>అధికారిక అంతర్గత విభాగాల ఉపయోగాల కోసం మరియు రైతుల సంక్షేమం మరియు వారి అభివృద్ధి కోసం వెబ్‌సైట్ రూపొందించబడింది. <br>
       అన్ని హక్కులూ ప్రత్యేకించుకోవడమైనది ®. <br> © 2020 - R.B.K యనమలకుదురు</div>	
