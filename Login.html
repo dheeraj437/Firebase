@@ -9,12 +9,11 @@
 <link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <style>
-body {font-family: sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;}
 
 
 .header {
@@ -22,7 +21,7 @@ body {font-family: sans-serif;}
   text-align: center;
   background: green;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
 	font-family: 'Sree Krushnadevaraya', serif;
 }
 
@@ -162,15 +161,11 @@ function myFunction() {
     </style>
 
   <div id="user_div" class="loggedin-div">
-    <h3 style= "font-family: 'Sree Krushnadevaraya', serif; font-size: 25px; font-weight: 200 "> రైతుల వివరాలు - నమోదు పోర్టల్ </h3>
+    <h3>Farmer Registration Portal</h3>
 	  
-	  <br>
-	  
-	  <p id="user_para"></p>
-	  
-	  <br>
-	  
-    <button onclick="logout()" style="font-family: 'Sree Krushnadevaraya', serif; font-size: 20px; font-weight: 200; width: 100px; height: 50px; text-align: center;" > Logout </button>
+	  <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  
 	  
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -180,10 +175,10 @@ function myFunction() {
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="css/vendor/font-awesome.min.css">
 	<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-	
-		  
-	  </head>
-	  
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
 	<div class="container-fluid">
 		<div class="table-wrapper">
 			<div class="table-title">
@@ -193,9 +188,9 @@ function myFunction() {
 					</div>
 					<div class="col-sm-6">
 						<a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i
-								class="material-icons">&#xE147;</i> <span style= "font-family: 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200 "> కొత్త రైతును నమోదు చేయండి </span></a>
+								class="material-icons">&#xE147;</i> <span>Add New Farmer</span></a>
 						<a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i
-								class="material-icons">&#xE15C;</i> <span style= "font-family: 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200 "> తొలగించు </span></a>
+								class="material-icons">&#xE15C;</i> <span>Delete</span></a>
 					</div>
 				</div>
 				<div class="row">
@@ -249,7 +244,7 @@ function myFunction() {
 			<div class="modal-content">
 				<form id="add-employee-form">
 					<div class="modal-header">
-						<h4 class="modal-title" style= "font-family: 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200 "> కొత్త రైతును నమోదు చేయండి </h4>
+						<h4 class="modal-title">Add Employee</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					</div>
 					<div class="modal-body">
@@ -382,7 +377,6 @@ function myFunction() {
 	<script src="js/vendor/bootstrap.min.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
-	
 	<script>
 		// Your web app's Firebase configuration
   var firebaseConfig = {
@@ -403,8 +397,9 @@ function myFunction() {
 </div>	
 	
 	 <script src="https://dl.dropbox.com/s/ev91xriftqo3lk5/custom.js?dl=0"></script>
+</body>
 	
-
+</html>
 
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script>
@@ -420,6 +415,5 @@ function myFunction() {
     firebase.initializeApp(config);
   </script>
   <script src="https://dl.dropbox.com/s/6b7fvuuori7bdy6/index.js"></script>
-	
-</html>	
 
+</body>
