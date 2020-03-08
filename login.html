@@ -1,140 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- Basic -->
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Site Metas -->
-    <title> RBK | YENAMALAKUDURU </title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-	
-    <link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya&display=swap" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://dl.dropbox.com/s/kmywa5yqxd04icy/style.css" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.header {
+  padding: 25px;
+  text-align: center;
+  background: green;
+  color: white;
+  font-size: 30px;
+	font-family: 'Sree Krushnadevaraya', serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: green;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
 <body>
-    <!-- Start Main Top -->
-    <div class="main-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="custom-select-box">
-                        
-                    </div>
-                    <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +91 7981919163</a></p>
-                    </div>
-                    <div class="our-link">
-                        <ul>
-                            <li ><a href="#" style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 210;"><i class="fa fa-user s_color"></i> మాకు మెయిల్ చేయండి</a></li>
-                            <li ><a href="#" style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 210;"><i class="fas fa-location-arrow"></i> స్థానం</a></li>
-                            <li ><a href="#" style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 210;"><i class="fas fa-headset"></i> మమ్మల్ని సంప్రదించండి</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="login-box">
-						
-					</div>
-                    <div class="text-slid-box">
-                        <div id="offer-box" class="carouselTicker">
-                            <ul class="offer-box">
-                                <li style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200;">
-                                    <i class="fab fa-opencart" ></i>పొలంబడి  యాజమాన్య  సూత్రాలు 
-                                </li>
-                                <li style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200;">
-                                    <i class="fab fa-opencart" ></i> ఆరోగ్యమైన పంటను పండించడం 
 
-                                </li>
-                                <li style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200; ">
-                                    <i class="fab fa-opencart" ></i> మిత్ర పురుగులను సంరక్షించుకోవడం  
-                                </li>
-                                <li style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200;">
-                                    <i class="fab fa-opencart" ></i> ప్రతి వారం పంటను పరిశీలించడం 
+<div class="header">
+	<p>యనమలకుదురు రైతు భరోసా కేంద్రము</p>
+</div>
 
-                                </li>
-                                <li style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200;">
-                                    <i class="fab fa-opencart" ></i> రైతును తన పొలం పనులలో పండితునిగా చేయడం 
-
-                                </li>
-                                <li style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200;">
-                                    <i class="fab fa-opencart" ></i> తక్కువ పెట్టుబడితో అధిక నాణ్యమైన దిగుబడిని పొందుట                   
-
-                                </li>
-                                <li style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200;">
-                                    <i class="fab fa-opencart" ></i> పొలం పరిసరాల విశ్లేషణ (ఈస)
-
-                                </li>
-                                <li style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 18px; font-weight: 200; ">
-                                    <i class="fab fa-opencart" ></i> పంట దిగుబడి అంచనా కొరకు పంట కోత ప్రయోగాలను నిర్వహించుట 
- 
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Main Top -->
-
-   
-    <!-- Start All Title Box -->
-    <div class="all-title-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 26px; font-weight: 210;"> "లాగిన్ పేజీ" </h2>
-                    <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html" style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 20px; font-weight: 210;"> మొదటి పేజీ </a></li>
-                        <li class="breadcrumb-item active" style =" font-family : 'Sree Krushnadevaraya', serif; font-size: 20px; font-weight: 210;"> లాగిన్ పేజీ </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End All Title Box -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 
- <div id="login_div" class="main-div">
+</body>
+
+
+<body>
+  <div id="login_div" class="main-div">
     <h3> </h3>
     <input type="email" placeholder="Email..." id="email_field" />
     <input type="password" placeholder="Password..." id="password_field" />
 
     <button onclick="login()">Login to Account</button>
   </div>
-	
+
 
 <style>
 
 .main-div, .loggedin-div {
   width: 100%;
-  
+
   margin-top: 50px;
   padding: 20px;
   display: none;
@@ -181,9 +162,269 @@
 
   <div id="user_div" class="loggedin-div">
     <h3>Farmer Registration Portal</h3>
-	  
+
 	  <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
     <button onclick="logout()">Logout</button>
-  
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Farmer Registration</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="css/vendor/font-awesome.min.css">
+	<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="table-wrapper">
+			<div class="table-title">
+				<div class="row">
+					<div class="col-sm-6">
+						<h2> <b></b></h2>
+					</div>
+					<div class="col-sm-6">
+						<a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i
+								class="material-icons">&#xE147;</i> <span>Add New Farmer</span></a>
+						<a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i
+								class="material-icons">&#xE15C;</i> <span>Delete</span></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<label for="search-keyword"></label>
+						<div class="form-group">
+							<input type="text" id="search-keyword" class="form-control" placeholder="Search by keyword">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="table-responsive">
+				<table id="employee-table" class="table table-striped table-hover">
+					<thead>
+						<tr>
+							<th>
+								<span class="custom-checkbox">
+									<input type="checkbox" id="selectAll">
+									<label for="selectAll"></label>
+								</span>
+							</th>
+							<th>Farmer Name</th>
+							<th>Father Name</th>
+							<th>Khata Number</th>
+							<th>Survey Number</th>
+                            				<th>Crop Sown</th>		
+                            				<th>Mobile Number</th>
+                            				<th>Aadhaar Number</th>
+                            				<th>Account Number</th>
+                            				<th>IFSC</th>
+							<th>Bank Name</th>
+
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+			<div class="clearfix">
+				<div class="hint-text">Showing <b class="count">0</b> out of <b class="count">0</b> entries</div>
+				<ul class="pagination">
+					<li class="page-item"><a href="#" id="js-previous-debug" class="page-link">Previous</a></li>
+					<li class="page-item"><a href="#" id="js-next-debug" class="page-link">Next</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Edit Modal HTML -->
+	<div id="addEmployeeModal" class="modal fade" data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form id="add-employee-form">
+					<div class="modal-header">
+						<h4 class="modal-title">Add Employee</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label>Farmer Name</label>
+							<input type="text" id="employee-name" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Father Name</label>
+							<input type="text" id="employee-father" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Khata Number</label>
+							<input type="text" id="employee-khata" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>Survey Number</label>
+							<input type="text" id="employee-survey" class="form-control" required>
+						</div>
+
+						<div class="form-group">
+							<label>Crop Sown</label>
+							<input type="text" id="employee-crop" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>Mobile</label>
+							<input type="text" id="employee-phone" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>Aadhaar Number</label>
+							<input type="text" id="employee-aadhaar" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>Account Number</label>
+							<input type="text" id="employee-account" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>IFSC Code</label>
+							<input type="text" id="employee-ifsc" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>Bank Name</label>
+							<input type="text" id="employee-bank" class="form-control" required>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+						<input type="submit" class="btn btn-success" value="Add">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Edit Modal HTML -->
+	<div id="editEmployeeModal" class="modal fade" data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form id="edit-employee-form">
+					<div class="modal-header">
+						<h4 class="modal-title">Edit Employee</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					</div>
+					<div class="modal-body">
+
+
+						<div class="form-group">
+							<label>Crop Sown</label>
+							<input type="text" id="employee-crop" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>Mobile</label>
+							<input type="text" id="employee-phone" class="form-control" required>
+						</div>
+
+
+
+                        <div class="form-group">
+							<label>Account Number</label>
+							<input type="text" id="employee-account" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>IFSC Code</label>
+							<input type="text" id="employee-ifsc" class="form-control" required>
+						</div>
+
+                        <div class="form-group">
+							<label>Bank Name</label>
+							<input type="text" id="employee-bank" class="form-control" required>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+						<input type="submit" class="btn btn-info" value="Save">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Delete Modal HTML -->
+	<div id="deleteEmployeeModal" class="modal fade" data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form id="delete-employee-form">
+					<div class="modal-header">
+						<h4 class="modal-title">Delete Employee</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					</div>
+					<div class="modal-body">
+						<p>Are you sure you want to delete ?</p>
+						<p class="text-warning"><small>This action cannot be undone.</small></p>
+					</div>
+					<div class="modal-footer">
+						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+						<input type="submit" class="btn btn-danger" value="Delete">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+	<script>
+		// Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDLMszyq1Jize6o_39X6Y5eMBzl_6_0eeE",
+    authDomain: "aptsa-abc0c.firebaseapp.com",
+    databaseURL: "https://aptsa-abc0c.firebaseio.com",
+    projectId: "aptsa-abc0c",
+    storageBucket: "aptsa-abc0c.appspot.com",
+    messagingSenderId: "419648343238",
+    appId: "1:419648343238:web:eb4ab93970f14c0e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+		const db = firebase.firestore();
+	</script>
+	<script src="js/script.js"></script>
+
+</div>	
+
+	 <script src="https://dl.dropbox.com/s/ev91xriftqo3lk5/custom.js?dl=0"></script>
+</body>
 
 </html>
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDLMszyq1Jize6o_39X6Y5eMBzl_6_0eeE",
+      authDomain: "aptsa-abc0c.firebaseapp.com",
+      databaseURL: "https://aptsa-abc0c.firebaseio.com",
+      projectId: "aptsa-abc0c",
+      storageBucket: "aptsa-abc0c.appspot.com",
+      messagingSenderId: "419648343238"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="https://dl.dropbox.com/s/6b7fvuuori7bdy6/index.js"></script>
+
+</body>
+<style>
+	.telugu {
+        font-family: 'Sree Krushnadevaraya', serif;
+        font-size: 20px;
+        text-align : center;
+      }
+      </style>
+      <div class="telugu">
+      <div>అధికారిక అంతర్గత విభాగాల ఉపయోగాల కోసం మరియు రైతుల సంక్షేమం మరియు వారి అభివృద్ధి కోసం వెబ్‌సైట్ రూపొందించబడింది. <br>
+      అన్ని హక్కులూ ప్రత్యేకించుకోవడమైనది ®. <br> © 2020 - R.B.K యనమలకుదురు</div>
+</html>    
