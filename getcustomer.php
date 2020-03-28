@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("remotemysql.com", "x7jsztqjaf", "i3M0j1fKai", "x7jsztqjaf");
+$mysqli = new mysqli("localhost", "x7jsztqjaf", "i3M0j1fKai", "x7jsztqjaf");
 if($mysqli->connect_error) {
   exit('Could not connect');
 }
