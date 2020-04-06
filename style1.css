@@ -24,7 +24,7 @@ h1{
   position: relative;
   border-radius: 3px;
   overflow: hidden;
-  width: 400px;
+  width: 350px;
   height: 250px;
   transition: transform 300ms linear-out;
 }
@@ -74,7 +74,7 @@ h1{
   color: white;
   text-decoration: none;
   border: solid 1px #555;
-  padding: 7px 13px;
+  padding: 7px 20px;
   background-color: red;
   transition: all 300ms ease-in;
 }
