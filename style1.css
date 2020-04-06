@@ -22,7 +22,7 @@ h1{
   position: relative;
   border-radius: 3px;
   overflow: hidden;
-  width: 300px;
+  width: 450px;
   height: 250px;
   transition: transform 300ms linear-out;
 }
