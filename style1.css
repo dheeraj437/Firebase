@@ -32,7 +32,7 @@ h1{
   z-index: 3;
   transform: scale(1.0);
   transition: transform 300ms cubic-bezier(0.22, 0.61, 0.36, 1);
-  background-image: url('https://static-1.gumroad.com/res/gumroad/assets/collections/food_and_cooking_thumb-34fb9ef316a7b01177529839891c3a03.jpg');
+  background-image: url('.images/categories_img_01.jpeg');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 1px 3px rgba(25,25,25,0.30);
