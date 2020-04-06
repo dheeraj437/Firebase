@@ -24,7 +24,7 @@ h1{
   position: relative;
   border-radius: 3px;
   overflow: hidden;
-  width: 350px;
+  width: 33.3%;
   height: 250px;
   transition: transform 300ms linear-out;
 }
