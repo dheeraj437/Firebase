@@ -92,10 +92,10 @@ body {
   background-size: cover;
   padding: 2rem;
   font-size: 1.618rem;
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
   overflow: hidden;
-  font-family: Poppins, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 .front:before {
   position: absolute;
