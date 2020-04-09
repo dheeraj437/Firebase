@@ -120,6 +120,7 @@ body {
   background: #fff;
   transform: rotateY(-180deg);
   padding: 0 2em;
+  font-family: Verdana, Geneva, sans-serif;
 }
 .back .button {
   background: linear-gradient(135deg, #1a9be6, #1a57e6);
