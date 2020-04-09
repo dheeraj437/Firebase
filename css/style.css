@@ -35,7 +35,7 @@
  body {
      color: #666666;
      font-size: 15px;
-     font-family: 'Dosis', sans-serif;
+     font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
 }
  a {
@@ -785,7 +785,7 @@
 }
 /*------------------------------------------------------------------ Slider -------------------------------------------------------------------*/
  .cover-slides{
-     height: 300px;
+     height: 400px;
 	width : 100%; 
 }
  .slides-navigation a {
