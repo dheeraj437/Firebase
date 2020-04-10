@@ -19,7 +19,7 @@ body {
   max-width: 1400px;
 }
 
-.heading {
+.h1 {
   width: 100%;
   margin-left: 1rem;
   font-weight: 900;
@@ -31,7 +31,7 @@ body {
   margin-bottom: 1rem;
   position: relative;
 }
-.heading:after {
+.h1:after {
   display: block;
   content: '';
   position: absolute;
