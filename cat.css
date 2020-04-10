@@ -187,5 +187,5 @@ body {
 }
 .button:active:before {
   transform: translateZ(-20px);
-  top: 12px;
+  top: 0px;
 }
