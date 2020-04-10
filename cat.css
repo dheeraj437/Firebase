@@ -37,9 +37,9 @@ body {
   display: block;
   content: '';
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 4px;
-  float: center;
+  align-items: center;
   background: linear-gradient(135deg, #1a9be6, #1a57e6);
   bottom: 0;
 }
