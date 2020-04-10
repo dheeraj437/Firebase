@@ -23,7 +23,7 @@ body {
   width: 100%;
   margin-left: 1rem;
   font-weight: 400;
-  align-items: center;
+  text-align: center;
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: .1ch;
@@ -154,6 +154,7 @@ body {
   font-weight: bold;
   color: #fff;
   border-radius: 100px;
+  text-align: center;
   font: inherit;
   border: none;
   position: relative;
