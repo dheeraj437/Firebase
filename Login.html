@@ -242,12 +242,11 @@ p{margin:0 0 1em}
 	table.mobile-optimised tbody, table.mobile-optimised tr {
 		display:block
 	}
-	.mobile-optimised td:before {
-		content:attr(data-th);
-		display:block;
-		font-weight:bold;
-		margin:0 0 2px;
-		color:#000;
+	{
+		td:nth-of-type(1):before { content: "Option"; }
+                td:nth-of-type(2):before { content: "Description"; }
+                td:nth-of-type(3):before { content: "Type"; }
+                td:nth-of-type(4):before { content: "Default";}
 	}
 	.mobile-optimised tbody tr {
 		float:left;width:100%;
@@ -255,6 +254,7 @@ p{margin:0 0 1em}
 	}
 }
 
+  
 	
  </style>
 
