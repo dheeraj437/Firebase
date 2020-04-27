@@ -207,109 +207,51 @@ function myFunction() {
 
 	
 
-.main-table {
-  width: 100%;
-  max-width: 100%;
-  /* change to suit*/
-  margin: 0 auto;
-  border: 1px solid #eaeaea;
-  border-collapse: collapse;
+.mytable{
+	width:100%;
+	margin:0 auto;
+	max-width:960px;
+	border-collapse:collapse;
 }
-.main-table thead th{
-  background: green;
-  color: #fff;
-  color: #fff;
-  font-size: 14px;
-  padding: 5px 9px 6px 9px;
-  line-height: 1;
+.mytable td{
+	border:1px solid #000;
+	padding:10px;
+	vertical-align:top;
 }
-.main-table th,
-.main-table td {
-  vertical-align: center;
-  text-align: left;
-}
-td.numbers {
-  text-align: center;
-}
-.main-table td {
-  font-size: 12px;
-  padding: 3px 9px;
-  border-bottom: 1px solid #999; /* dotted borders look bad on tables*/
-  line-height: 1.2;
-}
-.table-heading {
-  font-size: 14px;
-  margin: 0 0 0.5em;
-}
-.item-options {
-  margin: 0 0 0.5rem;
-  overflow: hidden;
-  clear: both;
-}
-.item-options dt {
-  margin: 0;
-  font-weight: bold;
-}
-.item-options dt,
-.item-options dd {
-  display: inline-block;
-  margin: 0;
-  padding: 0 5px 0 0;
-  vertical-align: top;
-}
-.item-options dt:after {
-  content: ":";
-}
-.main-table tbody tr:nth-child(odd) td {
-  background: white;
-}
-@media screen and (max-width: 540px) {
-  table.mobile-optimised {
-    word-wrap: break-word;
-    font-size: 1rem;
-    border: none;
-  }
-  table.mobile-optimised thead {
-    display: none;
-  }
-  table.mobile-optimised td {
-    display: block;
-    float: left; /* ie9 and under hack */
-    width: 100%;
-    clear: both;
-    background: white;
-    border: none;
-    padding: 10px 5px;
-    box-sizing: border-box;
-    font-size: 12px;
-  }
-  table.mobile-optimised tbody,
-  table.mobile-optimised tr {
-    display: block;
-  }
-  .mobile-optimised td:before {
-    content: attr(data-th);
-    display: block;
-    font-weight: bold;
-    margin: 0 0 2px;
-    background: white;
-    color: #fff;
-    padding: 5px;
-  }
-  .mobile-optimised tbody tr {
-    border-bottom: 2px solid #000;
-    overflow: hidden;
-  }
-  .item-options,
-  .table-heading {
-    font-size: 1rem;
-  }
-  .mobile-optimised .numbers {
-    text-align: left;
-  }
-  .main-table tbody tr:nth-child(odd) td {
-    background: white;
-  }
+p{margin:0 0 1em}
+
+@media screen and (max-width:601px) {
+	table.mobile-optimised {
+		word-wrap:break-word;
+	}
+	table.mobile-optimised thead {
+		display:none
+	}
+	table.mobile-optimised td {
+		display:block;
+		float:left;/* ie9 and under hack */
+		width:100%;
+		clear:both;
+		background:#f5f5f5;
+		padding:10px 5px;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	table.mobile-optimised tbody, table.mobile-optimised tr {
+		display:block
+	}
+	.mobile-optimised td:before {
+		content:attr(data-th);
+		display:block;
+		font-weight:bold;
+		margin:0 0 2px;
+		color:#000;
+	}
+	.mobile-optimised tbody tr {
+		float:left;width:100%;
+    margin-bottom:10px;
+	}
 }
 
 	
@@ -357,7 +299,7 @@ td.numbers {
 					</div>
 				</div>
 			</div>
-			<table id="employee-table" class="main-table mobile-optimised"  style=" font-size: 15px;">
+			<table id="employee-table" class="mytable mobile-optimised"  style=" font-size: 15px;">
 					<thead>
 						<tr>
 							<th>
