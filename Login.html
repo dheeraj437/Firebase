@@ -269,7 +269,7 @@ button.btn {
 
 body.large-screen {
   .table-wrapper {
-    max-width: 800px;
+    max-width: 100%;
   }
   .card-list-table {
     background: white;
@@ -443,7 +443,7 @@ body.large-screen {
 				</div>
 			</div>
 			
-					<body class="large-screen">
+<body class="large-screen">
   <div class="wrap">
     <div class="btn-toolbar buttons">
       <div class="btn-group">
@@ -488,7 +488,6 @@ body.large-screen {
 				</div>
 				</div>
 			</body>
-	
 			<div class="clearfix">
 				<div class="hint-text">Showing <b class="count">0</b> out of <b class="count">0</b> entries</div>
 				<ul class="pagination">
@@ -500,7 +499,6 @@ body.large-screen {
 	</div>
     </div>
   </div>
-
 </body>
 	<!-- Edit Modal HTML -->
 	<div id="addEmployeeModal" class="modal fade" data-backdrop="static" data-keyboard="false">
@@ -657,6 +655,29 @@ body.large-screen {
 		const db = firebase.firestore();
 	</script>
 	<script src="js/script.js"></script>
+<script>
+	
+	var desktopBtn = $("#desktop");
+var mobileBtn = $("#mobile");
+var body = $('body');
+
+desktopBtn.on('click', function() {
+  body.addClass('large-screen');
+  togglePrimaryButtonStyle($(this));
+})
+
+mobileBtn.on('click', function() {
+  body.removeClass('large-screen');
+  togglePrimaryButtonStyle($(this));
+})
+
+function togglePrimaryButtonStyle(el) {
+  var sibling = el.parent('.btn-group').siblings('.btn-group').find('.btn');
+  el.addClass('btn-primary');
+  sibling.removeClass('btn-primary').addClass('btn-default');
+}
+	
+</script>
 	
 </div>	
 	
