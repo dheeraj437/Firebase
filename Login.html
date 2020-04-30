@@ -421,8 +421,6 @@ body.large-screen {
 
 <body>
 	<div class="container-fluid">
-		<body class="large-screen">
-  			<div class="wrap">
 		<div class="table-wrapper">
 			<div class="table-title">
 				<div class="row">
@@ -446,9 +444,25 @@ body.large-screen {
 				</div>
 			</div>
 			
-			<div class="table-wrapper">
-			<table id="employee-table" class="table-responsive card-list-table"  style=" font-size: 15px;">
-					<thead>
+					<body class="large-screen">
+  <div class="wrap">
+    <div class="btn-toolbar buttons">
+      <div class="btn-group">
+        <button id="desktop" class="btn btn-primary">
+        <i class="fa fa-desktop" aria-hidden="true"></i>
+        Desktop Table
+      </button>
+      </div>
+      <div class="btn-group">
+        <button id="mobile" class="btn btn-default">
+        <i class="fa fa-mobile-phone" aria-hidden="true"></i>
+        Mobile Card List
+      </button>
+      </div>
+    </div>
+    <div class="table-wrapper">
+      <table class="table-responsive card-list-table">
+        <thead>
 						<tr>
 							<th>
 								<span class="custom-checkbox">
@@ -484,6 +498,9 @@ body.large-screen {
 			</div>
 		</div>
 	</div>
+    </div>
+  </div>
+</body>
 	<!-- Edit Modal HTML -->
 	<div id="addEmployeeModal" class="modal fade" data-backdrop="static" data-keyboard="false">
 		<div class="modal-dialog">
