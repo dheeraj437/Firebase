@@ -158,6 +158,72 @@ function myFunction() {
   border: 1px solid #5d8ffc;
   cursor: pointer;
 }   
+	
+	
+	table {
+	border:1px solid #000;
+	border-collapse:collapse;
+	width:100%;
+	max-width:960px;
+	margin:auto;
+}
+td,th {
+	border:1px solid #000;
+	padding:5px;
+}
+@media only screen and (max-width: 760px) {
+table, tbody, thead, tbody, th, td, tr {
+	display: block;
+	float:left;/* ie9 fix */
+	width:100%;
+	clear:both;
+}
+thead tr {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+tr {
+	border: 1px solid #ccc;
+}
+td,th {
+	border: none;
+	border-bottom: 1px solid #eee;
+}
+td:before {
+	float:left;
+	width: 95%;
+	padding:0 0 0 1%;
+  margin-left:-100%;
+}
+ td{
+  padding-left:50%;
+ -moz-box-sizing:border-box;
+ -webkit-box-sizing:border-box;
+  box-sizing:border-box; 
+ }
+
+  
+/*
+		Label the data
+		*/
+td:nth-of-type(1):before {content: "First Name that is very long an will wrap to another line";}
+td:nth-of-type(2):before {content: "Last Name";}
+td:nth-of-type(3):before {content: "Job Title";}
+td:nth-of-type(4):before {content: "Favorite Color which may be blue or it may not be blue. I just don't know";}
+td:nth-of-type(5):before {content: "Wars of Trek?";}
+td:nth-of-type(6):before {content: "Porn Name";}
+td:nth-of-type(7):before {content: "Date of Birth";}
+td:nth-of-type(8):before {content: "Dream Vacation City";}
+td:nth-of-type(9):before {content: "GPA";}
+td:nth-of-type(10):before {content: "Arbitrary Data";}
+}
+
+	
+	
+	
+	
+	
     </style>
 
   <div id="user_div" class="loggedin-div">
