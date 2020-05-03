@@ -280,7 +280,7 @@ table.table .avatar {
 	table.table thead {
 		display:none
 	}
-	table. table td {
+	table.table td a{
 		display:block;
 		float:left;/* ie9 and under hack */
 		width:100%;
@@ -291,7 +291,7 @@ table.table .avatar {
 		-webkit-box-sizing:border-box;
 		box-sizing:border-box;
 	}
-	table. table tbody, table. tr {
+	table.table tbody, table. tr {
 		display:block
 	}
 	.table td:before {
