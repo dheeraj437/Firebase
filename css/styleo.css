@@ -121,9 +121,10 @@ table.table .avatar {
     margin-right: 10px;
 }
 
+@media screen and (min-width:601px) {
 td:before {
 	display:block;
-
+}
 .pagination {
     float: right;
     margin: 0 0 5px;
