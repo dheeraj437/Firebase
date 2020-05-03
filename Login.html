@@ -168,6 +168,14 @@ function myFunction() {
   font-size: 16px;
   font-family: 'Sree Krushnadevaraya', serif;
 }
+	.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+		
     </style>
 
   <div id="user_div" class="loggedin-div">
@@ -177,15 +185,17 @@ function myFunction() {
     <h2>రైతు నమోదు పోర్టల్</h2>
     <p></p>
 <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+	  <div class=center >
     <button onclick="logout()" style=" background: #5d8ffc;
   color: #fff;
   border: 1px solid #5d8ffc;
   border-radius: 5px;
-  padding: 0px;
+  padding: 15px;
   display: block;
-  float: center;	
+  : center;	
   width: 300px; ">Logout</button>
   </div>
+	    </div>
 </section>
 	  
 	<meta charset="utf-8">
