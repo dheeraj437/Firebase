@@ -96,7 +96,7 @@ table.table td a {
     color: #566787;
     display: inline-block;
     text-decoration: none;
-    outline: none !important;
+    outline: 1px solid black !important;
     cursor: pointer;
 }
 
