@@ -283,8 +283,7 @@ td:before {
 	table.mobile-optimised thead {
 		display:none
 	}
-	table.mobile-optimised td .mobile-optimised td:before {
-		content:attr(data-th);
+	table.mobile-optimised td {
 		display:block;
 		float:left;/* ie9 and under hack */
 		text-align:right;
@@ -299,7 +298,7 @@ td:before {
 	table.mobile-optimised tbody, table.mobile-optimised tr {
 		display:block
 	}
-	.mobile-optimised t:before {
+	.mobile-optimised td:before {
 		content:attr(data-th);
 		text-align:left;
 		font-size: 12px;
