@@ -283,11 +283,12 @@ td:before {
 	table.mobile-optimised thead {
 		display:none
 	}
-	table.mobile-optimised td {
+	table.mobile-optimised td .mobile-optimised td:before {
+		content:attr(data-th);
 		display:block;
 		float:left;/* ie9 and under hack */
 		text-align:right;
-		font-size: 10px;
+		font-size: 12px;
 		width:100%;
 		clear:both;
 		background:white;
@@ -298,10 +299,8 @@ td:before {
 	table.mobile-optimised tbody, table.mobile-optimised tr {
 		display:block
 	}
-	.mobile-optimised td:before {
+	.mobile-optimised t:before {
 		content:attr(data-th);
-		padding-left:50%;
-		margin-left:-100%;
 		text-align:left;
 		font-size: 12px;
 		display:block;
