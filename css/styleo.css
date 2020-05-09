@@ -291,6 +291,7 @@ td:before {
 		width:100%;
 		clear:both;
 		padding: 0px 0px;
+		vertical-align: top;
 		background:white;
 		-moz-box-sizing:border-box;
 		-webkit-box-sizing:border-box;
