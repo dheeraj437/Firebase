@@ -86,7 +86,7 @@ table.table th i {
 
 table.table td:last-child i {
     opacity: 0.9;
-    font-size: 22px;
+    font-size: 18px;
     margin: 0 5px;
 }
 
@@ -112,7 +112,7 @@ table.table td a.delete {
 }
 
 table.table td i {
-    font-size: 19px;
+    font-size: 16px;
 }
 
 table.table .avatar {
@@ -286,6 +286,7 @@ td:before {
 	table.mobile-optimised td {
 		display:block;
 		float:right;/* ie9 and under hack */
+		text-align:right;
 		width:100%;
 		clear:both;
 		background:white;
@@ -299,6 +300,7 @@ td:before {
 	}
 	.mobile-optimised td:before {
 		content:attr(data-th);
+		font-size: 16px;
 		display:block;
 		font-weight:bold;
 		margin:0 0 2px;
