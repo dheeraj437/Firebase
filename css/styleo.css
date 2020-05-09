@@ -60,6 +60,10 @@ table.table tr td {
     border-color: #e9e9e9;
     padding: 12px 15px;
     vertical-align: middle;
+    min-height:400px;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
     
 }
 
