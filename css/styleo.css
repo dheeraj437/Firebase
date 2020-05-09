@@ -325,3 +325,8 @@ td:nth-of-type(10):before {content: "IFSC code";}
 td:nth-of-type(11):before {content: "Bank Name";}
 }
 
+@media only screen and (max-width: 600px) {
+.one {
+display: block;
+}
+}
