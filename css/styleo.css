@@ -30,6 +30,7 @@ body {
 
 .table-title .btn-group {
     float: right;
+    position:fixed;
 }
 
 .table-title .btn {
@@ -42,7 +43,7 @@ body {
     border: none;
     outline: none !important;
     margin-left: 10px;
-    position:fixed;
+   
 }
 
 .table-title .btn i {
