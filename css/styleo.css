@@ -301,6 +301,7 @@ td:before {
 	.mobile-optimised td:before {
 		content:attr(data-th);
 		padding-left:50%;
+		margin-left:-100%;
 		text-align:left;
 		font-size: 12px;
 		display:block;
