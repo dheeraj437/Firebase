@@ -290,6 +290,7 @@ td:before {
 		font-size: 10px;
 		width:100%;
 		clear:both;
+		padding: 0px 0px;
 		background:white;
 		-moz-box-sizing:border-box;
 		-webkit-box-sizing:border-box;
