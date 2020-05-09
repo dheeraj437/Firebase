@@ -64,12 +64,6 @@ $(document).ready(function () {
         <td "id=one">${document.data().account}</td>
         <td "id=one">${document.data().ifsc}</td>
         <td "id=one">${document.data().bank}</td>
-
-@media only screen and (max-width: 600px) {
-.one {
-display: block;
-}
-}
        
         <td>
             <a href="#" id="${document.id}" class="edit js-edit-employee"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
