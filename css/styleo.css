@@ -290,8 +290,6 @@ td:before {
 		font-size: 10px;
 		width:100%;
 		clear:both;
-		padding: 0px 0px;
-		vertical-align: top;
 		background:white;
 		-moz-box-sizing:border-box;
 		-webkit-box-sizing:border-box;
@@ -310,8 +308,7 @@ td:before {
 		color:#000;
 	}
 	.mobile-optimised tbody tr {
-		float:right;width:100%;
-    margin-bottom:10px;
+	width:100%;
 	}
 }
 
@@ -328,8 +325,3 @@ td:nth-of-type(10):before {content: "IFSC code";}
 td:nth-of-type(11):before {content: "Bank Name";}
 }
 
-@media only screen and (max-width: 900px) {
-        .one{
-            display: none;
-        }
-    }
