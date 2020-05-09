@@ -43,8 +43,6 @@ body {
     outline: none !important;
     margin-left: 10px;
     position:fixed;
-    overflow-y:scroll;
-    overflow-x:hidden;
 }
 
 .table-title .btn i {
