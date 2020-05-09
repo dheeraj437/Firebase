@@ -285,7 +285,7 @@ td:before {
 	}
 	table.mobile-optimised td {
 		display:block;
-		float:left;/* ie9 and under hack */
+		float:right;/* ie9 and under hack */
 		width:100%;
 		clear:both;
 		background:white;
