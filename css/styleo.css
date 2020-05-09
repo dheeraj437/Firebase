@@ -8,6 +8,7 @@ body {
 
 .table-wrapper {
     background: #fff;
+    position: fixed;
     padding: 20px 25px;
     margin: 30px 0;
     border-radius: 3px;
