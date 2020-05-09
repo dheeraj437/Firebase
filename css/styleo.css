@@ -305,7 +305,7 @@ td:before {
 		color:#000;
 	}
 	.mobile-optimised tbody tr {
-		float:left;width:100%;
+		float:right;width:100%;
     margin-bottom:10px;
 	}
 }
