@@ -285,7 +285,7 @@ td:before {
 	}
 	table.mobile-optimised td {
 		display:block;
-		float:right;/* ie9 and under hack */
+		float:left;/* ie9 and under hack */
 		text-align:right;
 		font-size: 10px;
 		width:100%;
@@ -300,6 +300,7 @@ td:before {
 	}
 	.mobile-optimised td:before {
 		content:attr(data-th);
+		padding-left:50%;
 		text-align:left;
 		font-size: 12px;
 		display:block;
