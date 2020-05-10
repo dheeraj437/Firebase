@@ -7,8 +7,7 @@ body {
 }
 
 .responsive {
-  width: 100%;
-  height: auto;
+  display: none;
 }
 
 .table-wrapper {
@@ -378,9 +377,6 @@ table.table tr td {
     
     display: none;
 }
-
-@media (min-width: 1024px) {
-    .imghide {
-        display: none;
-    }
+.responsive {
+  display: block;
 }
