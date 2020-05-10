@@ -365,4 +365,10 @@ table.table td a.delete {
 	table.table-striped tbody tr:nth-of-type(even) {
     background-color: white;
 }
+	.modal .modal-dialog {
+    max-width: 100%;
+    height:100%;
+		
+}
+	
 }
