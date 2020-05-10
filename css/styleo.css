@@ -13,6 +13,7 @@ body {
 .responsivelogin {
   width: 100px;
   height: 100px;
+  float: center;
 }
 
 .table-wrapper {
