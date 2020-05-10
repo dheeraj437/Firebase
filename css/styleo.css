@@ -366,4 +366,10 @@ table.table td a.delete {
 	table.table-striped tbody tr:nth-of-type(even) {
     background-color: white;
 }
+	
+	table.table tr th,
+table.table tr td {
+    
+    display: none;
+}
 }
