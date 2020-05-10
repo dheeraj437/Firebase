@@ -379,4 +379,7 @@ table.table tr td {
 }
 .responsive {
   display: block;
+  width: 100%;
+  height: auto;
+}
 }
