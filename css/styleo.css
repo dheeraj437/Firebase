@@ -245,10 +245,8 @@ td:before {
 /* Modal styles */
 .modal .modal-dialog {
     max-width: 400px;
-    position: absolute;
-    top:0;
-    float: top;
-    z-index: 1; /* Sit on top */
+    height: 100%;
+    overflow: auto;
 }
 
 .modal .modal-header,
