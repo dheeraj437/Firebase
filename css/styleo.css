@@ -357,5 +357,9 @@ table.table td a.delete {
 	.custom-checkbox {
     display: none;
 }
+	
+	table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
 }
 
