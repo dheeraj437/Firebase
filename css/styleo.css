@@ -354,5 +354,8 @@ table.table td a.delete {
 	display: none;
     
 }
+	.custom-checkbox {
+    display: none;
+}
 }
 
