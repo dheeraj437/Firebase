@@ -379,7 +379,7 @@ table.table tr td {
     display: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 960px) {
 	.responsive {
 		display: none;
 }
