@@ -379,8 +379,8 @@ table.table tr td {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-
-#imghide {display: none;}
-
-}	
+@media (min-width: 1024px) {
+    .imghide {
+        display: none;
+    }
+}
