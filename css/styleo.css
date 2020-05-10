@@ -10,6 +10,11 @@ body {
   display: none;
 }
 
+.responsivelogin {
+  width: 100px;
+  height: 100px;
+}
+
 .table-wrapper {
     background: #fff;
     width: 100%;
