@@ -179,7 +179,8 @@ function myFunction() {
   cursor: pointer;
 }   
    section {
-  padding: 10px;
+  width: 100%;
+  height: 80px;
   text-align: center;	   
   border: 1px solid #808080;
   position: -webkit-sticky;
@@ -187,17 +188,10 @@ function myFunction() {
   top: 100;	   
   background: white;
   color: green;
-  width: 100%;
-  height: 80px;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Sree Krushnadevaraya', serif;
 }
-  .center {
-  margin: 0;
-  left: 50%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 90;
+ 
 
 		
 </style>
@@ -205,22 +199,15 @@ function myFunction() {
   <div id="user_div" class="loggedin-div">
 
 
-	  <section>
+<section>
   <div class="container-fluid">
     <h2>రైతు నమోదు పోర్టల్</h2>
     <p></p>
-<p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
-	  <div class=center >
-    <button onclick="logout()" style=" background: #5d8ffc;
-  color: #fff;
-  border: 1px solid #5d8ffc;
-  border-radius: 5px;
-  display: block,
-  text-align: center;	
-  width: 120px; ">Logout</button>
+<p id="user_para"></p>
+<button onclick="logout()">Logout</button>
   </div>
-	    </div>
-	  </section>
+</section>
+	  
 	  
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
