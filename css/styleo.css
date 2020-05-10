@@ -245,8 +245,6 @@ td:before {
 /* Modal styles */
 .modal .modal-dialog {
     max-width: 400px;
-    height: 100%;
-    overflow: auto;
 }
 
 .modal .modal-header,
@@ -368,4 +366,9 @@ table.table td a.delete {
     background-color: white;
 }
 
+	table.table tr th,
+table.table tr td {
+   display: none;
+   
+}
 }
