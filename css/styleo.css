@@ -110,6 +110,7 @@ table.table td a {
 
 table.table td a:hover {
     color: #2196F3;
+    position : absolute;	
 }
 
 table.table td a.edit {
