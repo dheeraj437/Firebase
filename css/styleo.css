@@ -6,6 +6,11 @@ body {
     width: 100%;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .table-wrapper {
     background: #fff;
     width: 100%;
@@ -373,4 +378,9 @@ table.table tr td {
     
     display: none;
 }
+
+@media only screen and (min-width: 600px) {
+	.responsive {
+		display: none;
 }
+		
