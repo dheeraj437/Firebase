@@ -245,7 +245,7 @@ td:before {
 /* Modal styles */
 .modal .modal-dialog {
     max-width: 400px;
-    position: fixed; /* Stay in place */
+    float: top;
     z-index: 1; /* Sit on top */
 }
 
