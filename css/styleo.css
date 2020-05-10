@@ -298,7 +298,7 @@ td:before {
 		display:block;
 		float:left;/* ie9 and under hack */
 		text-align:right;
-		font-size: 12px;
+		font-size: 14px;
 		width:100%;
 		clear:both;
 		-moz-box-sizing:border-box;
@@ -311,9 +311,9 @@ td:before {
 	.mobile-optimised td:before {
 		content:attr(data-th);
 		text-align:left;
-		font-size: 12px;
+		font-size: 14px;
 		display:block;
-		font-weight:bold;
+		font-weight:100;
 		margin:0 0 2px;
 		color:#000;
 	}
@@ -360,5 +360,8 @@ table.table td a.delete {
 	table.table-striped tbody tr:nth-of-type(odd) {
     background-color: #fcfcfc;
 }
+	
+	table.table-striped tbody tr:nth-of-type(even) {
+    background-color: white;
 }
-
+}
