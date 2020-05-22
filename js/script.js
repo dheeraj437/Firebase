@@ -54,11 +54,12 @@ $(document).ready(function () {
                 <label for="${document.id}"></label>
             </span>
         </td>
-        <td>${document.data().name}</td>
+        <td>${document.data().type}</td>
+        <td>${document.data().farmer}</td>
         <td>${document.data().father}</td>
         <td>${document.data().khata}</td>
         <td>${document.data().survey}</td>
-        <td>${document.data().crop}</td>
+        
         <td>${document.data().phone}</td>
         <td>${document.data().aadhaar}</td>
         <td>${document.data().account}</td>
@@ -101,11 +102,12 @@ $(document).ready(function () {
     $("#add-employee-form").submit(function (event) {
         event.preventDefault();
         db.collection('employees').add({
-                name: $('#employee-name').val(),
+                crop: $('#employee-type').val(),
+                name: $('#employee-farmer').val(),
                 father: $('#employee-father').val(),
                 khata: $('#employee-khata').val(),
                 survey: $('#employee-survey').val(),
-                crop: $('#employee-crop').val(),
+                
                 phone: $('#employee-phone').val(),
                 aadhaar: $('#employee-aadhaar').val(),
                 account: $('#employee-account').val(),
