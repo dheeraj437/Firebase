@@ -6,6 +6,10 @@ body {
     width: 100%;
 }
 
+.responsive {
+  display: none;
+}
+
 .responsivelogin {
   width: 100px;
   height: 100px;
@@ -378,4 +382,8 @@ table.table td a.delete {
 table.table tr td {
     
     display: none;
+}
+	
+	.responsive {
+  display: none;
 }
