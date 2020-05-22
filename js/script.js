@@ -160,10 +160,6 @@ $(document).ready(function () {
         $('#edit-employee-form').attr('edit-id', id);
         db.collection('employees').doc(id).get().then(function (document) {
             if (document.exists) {
-                $('#edit-employee-form #employee-crop').val(document.data().crop);
-                $('#edit-employee-form #employee-phone').val(document.data().phone);
-                $('#edit-employee-form #employee-account').val(document.data().account);
-                $('#edit-employee-form #employee-ifsc').val(document.data().ifsc);
                 $('#edit-employee-form #employee-bank').val(document.data().bank);
                 $('#editEmployeeModal').modal('show');
             } else {
@@ -178,10 +174,6 @@ $(document).ready(function () {
         event.preventDefault();
         let id = $(this).attr('edit-id');
         db.collection('employees').doc(id).update({
-            crop: $('#edit-employee-form #employee-crop').val(),
-            phone: $('#edit-employee-form #employee-phone').val(),
-            account: $('#edit-employee-form #employee-account').val(),
-            ifsc: $('#edit-employee-form  #employee-ifsc').val(),
             bank: $('#edit-employee-form  #employee-bank').val()
         });
         $('#editEmployeeModal').modal('hide');
