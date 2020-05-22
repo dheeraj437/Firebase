@@ -169,16 +169,17 @@ function myFunction() {
 									<label for="selectAll"></label>
 								</span>
 							</th>
+							<th>Farmer Type</th>
 							<th>Farmer Name</th>
 							<th>Father Name</th>
 							<th>Khata Number</th>
 							<th>Survey Number</th>
-                            				<th >Crop Sown</th>		
+    		
                             				<th >Mobile Number</th>
                             				<th >Aadhaar Number</th>
-                            				<th >Account Number</th>
-                            				<th >IFSC</th>
-							<th >Bank Name</th>
+                            				<th >Grievance Type</th>
+                            				<th >Mention about Grievance</th>
+							<th >Status</th>
                             
 				
 								</tr>
@@ -212,21 +213,27 @@ function myFunction() {
 			<div class="modal-content">
 				<form id="add-employee-form">
 					<div class="modal-header">
-						<h4 class="modal-title">Add Employee</h4>
+						<h4 class="modal-title">Add Grievance</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					</div>
 					<div class="modal-body">
 						<div class="form-group">
-							<label>Farmer Name</label>
+							<label>Farmer Type</label>
 							<select id="employee-name" class="form-control" style=" height: 40px;" required>
 							<option value="Owner">Owner</option>
 							<option value="Cultivator">Cultivator</option>
 							</select>
     </div>
 						<div class="form-group">
+							<label>Farmer Name</label>
+							<input type="text" id="employee-father" class="form-control" required>
+						</div>
+						
+						<div class="form-group">
 							<label>Father Name</label>
 							<input type="text" id="employee-father" class="form-control" required>
 						</div>
+						
 						<div class="form-group">
 							<label>Khata Number</label>
 							<input type="text" id="employee-khata" class="form-control" required>
@@ -237,10 +244,7 @@ function myFunction() {
 							<input type="text" id="employee-survey" class="form-control" required>
 						</div>
                         
-						<div class="form-group">
-							<label>Crop Sown</label>
-							<input type="text" id="employee-crop" class="form-control" required>
-						</div>
+						
                         
                         <div class="form-group">
 							<label>Mobile</label>
@@ -251,19 +255,26 @@ function myFunction() {
 							<label>Aadhaar Number</label>
 							<input type="text" id="employee-aadhaar" class="form-control" required>
 						</div>
+						
                         
                         <div class="form-group">
-							<label>Account Number</label>
+							<label>Grievance Type</label>
 							<input type="text" id="employee-account" class="form-control" required>
+				<select id="employee-account" class="form-control" style=" height: 40px;" required>
+							<option value="Rythu Barosa">Rythu Barosa</option>
+							<option value="P.M. Kisan">P.M. Kisan</option>
+					                <option value="Crop Booking">Crop Booking</option>
+					                <option value="Others">Others</option>
+							</select>
 						</div>
                         
                         <div class="form-group">
-							<label>IFSC Code</label>
+							<label>Mention the Grievance</label>
 							<input type="text" id="employee-ifsc" class="form-control" required>
 						</div>
                         
                         <div class="form-group">
-							<label>Bank Name</label>
+							<label>Status</label>
 							<input type="text" id="employee-bank" class="form-control" required>
 						</div>
 					       
@@ -288,31 +299,13 @@ function myFunction() {
 					<div class="modal-body">
 					
                         
-						<div class="form-group">
-							<label>Crop Sown</label>
-							<input type="text" id="employee-crop" class="form-control" required>
-						</div>
-                        
                         <div class="form-group">
-							<label>Mobile</label>
-							<input type="text" id="employee-phone" class="form-control" required>
-						</div>
-                        
-                       
-                        
-                        <div class="form-group">
-							<label>Account Number</label>
-							<input type="text" id="employee-account" class="form-control" required>
-						</div>
-                        
-                        <div class="form-group">
-							<label>IFSC Code</label>
-							<input type="text" id="employee-ifsc" class="form-control" required>
-						</div>
-                        
-                        <div class="form-group">
-							<label>Bank Name</label>
+							<label>Status</label>
 							<input type="text" id="employee-bank" class="form-control" required>
+				<select id="employee-bank" class="form-control" style=" height: 40px;" required>
+							<option value="Closed">Closed</option>
+							<option value="Send Farmer to RBK">Send Farmer to RBK</option>
+							</select>
 						</div>
 					</div>
 					<div class="modal-footer">
