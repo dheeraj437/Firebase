@@ -322,6 +322,7 @@ td:before {
 	.mobile-optimised td:before {
 		content:attr(data-th);
 		text-align:left;
+		color: #A9A9A9;
 		font-size: 14px;
 		display:block;
 		font-weight:100;
