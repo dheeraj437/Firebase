@@ -85,15 +85,9 @@ table.table tr th:last-child {
     width: 100px;
 }
 
-table.table-striped tr:nth-of-type(odd) {
+table.table-striped tbody tr:nth-of-type(odd) {
     background-color: #F0FFFF;
 	color: #778899;
-	width: 100%;
-}
-
-table.table-striped tbody {
-    background-color: green;
-	color: white;
 	width: 100%;
 }
 
@@ -324,9 +318,7 @@ td:before {
 		-webkit-box-sizing:border-box;
 		box-sizing:border-box;
 	}
-	table.mobile-optimised tbody, table.mobile-optimised tr {
-		display:block
-	}
+	
 	.mobile-optimised td:before {
 		content:attr(data-th);
 		text-align:left;
