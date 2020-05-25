@@ -86,8 +86,8 @@ table.table tr th:last-child {
 }
 
 table.table-striped tbody tr:nth-of-type{
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: white;
+box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+   background-color: white;
 	width: 100%;
 }
 
@@ -293,7 +293,7 @@ td:before {
 @media screen and (max-width:601px) {
 	table.mobile-optimised {
 		word-wrap:break-word;
-		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 	}
 	table.mobile-optimised thead {
 		display:none
@@ -322,7 +322,7 @@ td:before {
 	}
 	.mobile-optimised tbody tr {
 	width:100%;
-	
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 	}
 }
 
