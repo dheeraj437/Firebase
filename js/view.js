@@ -57,22 +57,10 @@ $(document).ready(function () {
         <td>${document.data().crop}</td>
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
-        <td><button><input type="button" style="width: 100%; height: 100%;" value="${document.data().bank}"></td>
+        <td><button><input type="button" style="width: 100%; height: 100%;" value="${document.data().bank}"></button></td>
  </tr>`;
    
-  function(document.data().bank){
-  if(document.data().bank = "Opened" ){
-    document.data().bank.style.backgroundColor = 'green';
-  } else if(document.data().bank ="Closed"){
-    document.data().bank.style.backgroundColor = 'red';
-  } else if(document.data().bank = "Send Farmer to RBK"){
-    document.data().bank.style.backgroundColor = 'orange';
-  }
-
-};
-   
-        
-        $('#employee-table').append(item);
+      $('#employee-table').append(item);
         // Activate tooltip
         $('[data-toggle="tooltip"]').tooltip();
         // Select/Deselect checkboxes
