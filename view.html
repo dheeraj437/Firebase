@@ -302,7 +302,7 @@ function myFunction() {
 					</div>
 					<div class="modal-footer">
 						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-						<input type="submit" class="btn btn-info" value="Save" onclick="colorbg ()">
+						<input type="submit" class="btn btn-info" value="Save" onclick="colorbg()">
 					</div>
 				</form>
 			</div>
@@ -342,12 +342,10 @@ function myFunction() {
 	</sytle>
 	
 	<script>
-function colorbg () {
-
+function colorbg() {
 var x=document.getElementById("employee-bank");
 var bgcolor=x.options[x.selectedIndex].value;
 document.style.backgroundColor=bgcolor;
-
 }
 
 </script>	
