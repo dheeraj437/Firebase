@@ -295,8 +295,8 @@ function myFunction() {
                         <div class="form-group">
 							<label>Status</label>
 				<select id="employee-bank" class="form-control" style=" height: 40px;" required>
-							<option value="Closed">Closed</option>
-							<option value="Send Farmer to RBK">Send Farmer to RBK</option>
+							<option  value="changecolor()">Closed</option>
+							<option  value="changecolor()">Send Farmer to RBK</option>
 							</select>
 						</div>
 					</div>
@@ -329,6 +329,19 @@ function myFunction() {
 			</div>
 		</div>
 	</div>
+
+<script>
+	function changecolor() {
+let Opened = document.getElementById('${document.data().bank}').value;
+document.style.backgroundColor= green;
+}
+let Closed = document.getElementById('${document.data().bank}').value;
+document.style.backgroundColor= red;
+}
+let Send Farmer to RBK = document.getElementById('${document.data().bank}').value;
+document.style.backgroundColor= orange;
+}
+</script>
 	
 	<script src="js/vendor/jquery.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
