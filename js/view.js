@@ -58,7 +58,7 @@ $(document).ready(function () {
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
 
-        <td><input type="button" style=" width:100%; height:100%; background-color: green" value="${document.data().bank}"</td>
+        <td><input type="button" style=" width:100%; height:100%; background-color: green; font-weight:300px;" value="${document.data().bank}"</td>
 
        
         
