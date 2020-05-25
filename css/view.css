@@ -88,6 +88,7 @@ table.table tr th:last-child {
 
 table.table-striped tbody tr:nth-of-type(odd) {
     background-color: green;
+	color: white;
 	width: 100%;
 }
 
@@ -303,8 +304,6 @@ td:before {
 	table.mobile-optimised {
 		word-wrap:break-word;
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-		background: green;
-		color: white;
 	}
 	table.mobile-optimised thead {
 		display:none
@@ -331,7 +330,6 @@ td:before {
 		display:block;
 		font-weight:100;
 		margin:0 0 2px;
-		color:#000;
 	}
 	.mobile-optimised tbody tr {
 	width:100%;
@@ -366,11 +364,6 @@ table.table td a.delete {
 }
 	.custom-checkbox {
     display: none;
-}
-	
-.table-wrapper {
-    background: green;
-	
 }
 	
 	.responsive {
