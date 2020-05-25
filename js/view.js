@@ -45,7 +45,19 @@ $(document).ready(function () {
     //     console.log(documentSnapshots.docs.length - 1);
     // });
 
-    
+    function renderEmployee(document) {
+        let item = `<tr data-id="${document.id}">
+        <td>
+            <span class="custom-checkbox">
+                <input type="checkbox" id="${document.id}" name="options[]" value="${document.id}">
+                <label for="${document.id}"></label>
+            </span>
+        </td>
+        <td>${document.data().crop}</td>
+        <td>${document.data().name}</td>
+        <td>${document.data().father}</td>
+ </tr>`;
+
  var Color = function mycolor(${document.data().bank})
  
  function mycolor(${document.data().bank})
@@ -59,20 +71,9 @@ $(document).ready(function () {
        return "Red"
        }
    }    
-           
- function renderEmployee(document) {
-        let item = `<tr data-id="${document.id}">
-        <td>
-            <span class="custom-checkbox">
-                <input type="checkbox" id="${document.id}" name="options[]" value="${document.id}">
-                <label for="${document.id}"></label>
-            </span>
-        </td>
-        <td>${document.data().crop}</td>
-        <td>${document.data().name}</td>
-        <td>${document.data().father}</td>
         <td><button style="background-color: Color; border:none;"><input type="button" style="width: 100%; height: 100%; background-color: Color; border:none; color:white;" value="${document.data().bank}"></button></td>
- </tr>`;
+
+</tr>;
    
       $('#employee-table').append(item);
         // Activate tooltip
