@@ -58,9 +58,7 @@ $(document).ready(function () {
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
 
-<td>
-            <a href="#" id="${document.data().bank}"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
-            </a> </td>
+        <td><input type="button" style=" width:100px; height:50px;" value="${document.data().bank}"</td>
 
        
         
