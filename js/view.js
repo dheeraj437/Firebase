@@ -56,19 +56,8 @@ $(document).ready(function () {
         <td>${document.data().crop}</td>
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
-        <td><button><input type="button" id="${document.data().bank}" value="changecolor()"></button></td>
+        <td><button><input type="button" id="changecolor" value="${document.data().bank}"></button></td>
  </tr>`;
-        
-        function changecolor() {
-let Opened = document.getElementById('${document.data().bank}').value;
-document.style.backgroundColor= green;
-}
-let Closed = document.getElementById('${document.data().bank}').value;
-document.style.backgroundColor= red;
-}
-let Send Farmer to RBK = document.getElementById('${document.data().bank}').value;
-document.style.backgroundColor= orange;
-}
    
       $('#employee-table').append(item);
         // Activate tooltip
