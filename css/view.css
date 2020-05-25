@@ -304,6 +304,7 @@ td:before {
 		word-wrap:break-word;
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 		background: green;
+		color: white;
 	}
 	table.mobile-optimised thead {
 		display:none
@@ -312,12 +313,10 @@ td:before {
 		display:block;
 		float:left;/* ie9 and under hack */
 		text-align:right;
-		
 		font-size: 14px;
 		padding: 12px 15px;
 		width:100%;
 		clear:both;
-		border: 1px solid #566787;
 		-moz-box-sizing:border-box;
 		-webkit-box-sizing:border-box;
 		box-sizing:border-box;
