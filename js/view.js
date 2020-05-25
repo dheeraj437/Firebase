@@ -58,8 +58,18 @@ $(document).ready(function () {
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
 
-        <td><button style="background-color: green; border: none; " ><input type="button"  style=" width:100%; height:100%; background-color: green; color: white; border: none;" value="${document.data().bank}"></button></td>
+        <td id="${document.data().bank}"></td>
+<script>
+if (id="Opened"){
+<td><button style="background-color: green; border: none; " ><input type="button"  style=" width:100%; height:100%; background-color: green; color: white; border: none;" value="${document.data().bank}"></button></td> }
 
+else if(id="Closed"){
+<td><button style="background-color: red; border: none; " ><input type="button"  style=" width:100%; height:100%; background-color: red; color: white; border: none;" value="${document.data().bank}"></button></td>}
+
+else(id="Send Farmer to RBK"){
+<td><button style="background-color: orange; border: none; " ><input type="button"  style=" width:100%; height:100%; background-color: orange; color: white; border: none;" value="${document.data().bank}"></button></td>}
+
+</script>
        
         
     </tr>`;
