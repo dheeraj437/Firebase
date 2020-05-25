@@ -85,7 +85,7 @@ table.table tr th:last-child {
     width: 100px;
 }
 
-table.table-striped tbody tr:nth-of-type(odd){
+table.table-striped tbody tr:nth-of-type{
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
 	width: 100%;
