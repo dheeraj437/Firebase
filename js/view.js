@@ -45,6 +45,19 @@ $(document).ready(function () {
     //     console.log(documentSnapshots.docs.length - 1);
     // });
 
+    
+    
+      var changeColor = function(document.data().bank){
+  if(document.data().bank = "Opened" ){
+    document.data().bank.style.backgroundColor = 'green';
+  } else if(document.data().bank ="Closed"){
+    document.data().bank.style.backgroundColor = 'red';
+  } else if(document.data().bank = "Send Farmer to RBK"){
+    document.data().bank.style.backgroundColor = 'orange';
+  }
+
+};
+        
 
     function renderEmployee(document) {
         let item = `<tr data-id="${document.id}">
@@ -57,22 +70,11 @@ $(document).ready(function () {
         <td>${document.data().crop}</td>
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
-
-        <td id="${document.data().bank}"></td>
-<script>
-if (id="Opened"){
-<td><button style="background-color: green; border: none; " ><input type="button"  style=" width:100%; height:100%; background-color: green; color: white; border: none;" value="${document.data().bank}"></button></td> }
-
-else if(id="Closed"){
-<td><button style="background-color: red; border: none; " ><input type="button"  style=" width:100%; height:100%; background-color: red; color: white; border: none;" value="${document.data().bank}"></button></td>}
-
-else(id="Send Farmer to RBK"){
-<td><button style="background-color: orange; border: none; " ><input type="button"  style=" width:100%; height:100%; background-color: orange; color: white; border: none;" value="${document.data().bank}"></button></td>}
-
-</script>
-       
+        <td><button><input type="button" style="width: 100%; height: 100%;" value="changeColor"></td>
+ </tr>`;
+   
+   
         
-    </tr>`;
         $('#employee-table').append(item);
         // Activate tooltip
         $('[data-toggle="tooltip"]').tooltip();
