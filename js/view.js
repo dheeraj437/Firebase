@@ -46,6 +46,20 @@ $(document).ready(function () {
     // });
 
     
+ var Color = function mycolor(${document.data().bank})
+ 
+ function mycolor(${document.data().bank})
+ {    
+ 		var test = ${document.data().bank}
+      If( test = "Opened")
+      		{ Return "Green"
+            }
+       else if ( test = "Closed")
+       {
+       return "Red"
+       }
+   }    
+           
  function renderEmployee(document) {
         let item = `<tr data-id="${document.id}">
         <td>
@@ -57,7 +71,7 @@ $(document).ready(function () {
         <td>${document.data().crop}</td>
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
-        <td><button style="background-color: green; border:none;"><input type="button" style="width: 100%; height: 100%; background-color: green; border:none; color:white;" value="${document.data().bank}"></button></td>
+        <td><button style="background-color: Color; border:none;"><input type="button" style="width: 100%; height: 100%; background-color: Color; border:none; color:white;" value="${document.data().bank}"></button></td>
  </tr>`;
    
       $('#employee-table').append(item);
