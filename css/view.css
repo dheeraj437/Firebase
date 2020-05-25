@@ -86,7 +86,7 @@ table.table tr th:last-child {
 }
 
 table.table-striped tbody tr:nth-of-type(odd) {
-    background-color: #808080;
+    background-color: #F0FFFF;
 	color: #778899;
 	width: 100%;
 }
@@ -330,7 +330,7 @@ td:before {
 		margin:0 0 2px;
 	}
 	.mobile-optimised tbody tr {
-	width:90%;
+	width:100%;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 	}
 }
