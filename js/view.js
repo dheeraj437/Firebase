@@ -56,7 +56,7 @@ $(document).ready(function () {
         <td>${document.data().crop}</td>
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
-        <td><button><input type="button" id="changecolor" value="${document.data().bank}"></button></td>
+        <td><button><input type="button" value="${document.data().bank}"></button></td>
  </tr>`;
    
       $('#employee-table').append(item);
