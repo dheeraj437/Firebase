@@ -303,6 +303,7 @@ td:before {
 	table.mobile-optimised {
 		word-wrap:break-word;
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		background: green;
 	}
 	table.mobile-optimised thead {
 		display:none
@@ -352,12 +353,6 @@ td:nth-of-type(11):before {content: "Bank Name";}
 }
 
 @media only screen and (max-width: 600px) {
-
-	table.table td a:hover {
-    color: #2196F3;	
-    
-    display: none;
-}
 
 table.table td a.edit {
     color: #FFC107;
