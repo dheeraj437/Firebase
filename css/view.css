@@ -85,8 +85,14 @@ table.table tr th:last-child {
     width: 100px;
 }
 
-table.table-striped tbody tr:nth-of-type(odd) tr:nth-of-type(even) {
+table.table-striped tbody tr:nth-of-type(odd){
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+	width: 100%;
+}
+
+table.table-striped.table-hover tbody tr:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
 	width: 100%;
 }
@@ -112,10 +118,6 @@ table.table td a {
     cursor: pointer;
     
     
-}
-
-table.table td a:hover {
-    color: #2196F3;	
 }
 
 table.table td a.edit {
