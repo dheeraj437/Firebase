@@ -352,7 +352,8 @@ td:nth-of-type(11):before {content: "Bank Name";}
 
 	table.table td a:hover {
     color: #2196F3;	
-		display: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    display: none;
 }
 
 table.table td a.edit {
@@ -380,7 +381,8 @@ table.table td a.delete {
 	
 	table.table tr th,
 table.table tr td {
-    
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; 
   
 }
 	
