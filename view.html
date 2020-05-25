@@ -295,14 +295,14 @@ function myFunction() {
                         <div class="form-group">
 							<label>Status</label>
 				<select id="employee-bank" class="form-control" style=" height: 40px;" required>
-							<option  id="Red" value="Closed">Closed</option>
-							<option  id="Orange" value="Send Farmer to RBK">Send Farmer to RBK</option>
+							<option class="red">Closed</option>
+							<option class="orange">Send Farmer to RBK</option>
 							</select>
 						</div>
 					</div>
 					<div class="modal-footer">
 						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-						<input type="submit" class="btn btn-info" value="Save" onclick="changecolor()">
+						<input type="submit" class="btn btn-info" value="Save" onclick="colorbg ()">
 					</div>
 				</form>
 			</div>
@@ -330,15 +330,27 @@ function myFunction() {
 		</div>
 	</div>
 
-<script>
-	function changecolor() {
-var red = document.getElementById('Red').value;
-document.style.backgroundColor= red;
+
+<style>
+	.red{
+		background-color: red;
+	}
+	.orange{
+		background-color: orange;
+	}
+	
+	</sytle>
+	
+	<script>
+function colorbg () {
+
+var x=document.getElementById("employee-bank");
+var bgcolor=x.options[x.selectedIndex].value;
+document.style.backgroundColor=bgcolor;
+
 }
-var orange = document.getElementById('Orange').value;
-document.style.backgroundColor= orange;
-}
-</script>
+
+</script>	
 	
 	<script src="js/vendor/jquery.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
