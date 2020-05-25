@@ -57,7 +57,11 @@ $(document).ready(function () {
         <td>${document.data().crop}</td>
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
-        <td>${document.data().bank}</td>
+
+<td>
+            <a href="#" id="${document.data().bank}"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+            </a> </td>
+
        
         
     </tr>`;
