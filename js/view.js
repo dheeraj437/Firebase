@@ -57,7 +57,7 @@ $(document).ready(function () {
         <td>${document.data().crop}</td>
         <td>${document.data().name}</td>
         <td>${document.data().father}</td>
-        <td><input type='button'>${document.data().bank}</td>
+        <td>${document.data().bank}</td>
        
         
     </tr>`;
