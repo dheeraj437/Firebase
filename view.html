@@ -295,14 +295,14 @@ function myFunction() {
                         <div class="form-group">
 							<label>Status</label>
 				<select id="employee-bank" class="form-control" style=" height: 40px;" required>
-							<option  value="changecolor()">Closed</option>
-							<option  value="changecolor()">Send Farmer to RBK</option>
+							<option  id="Red" value="Closed">Closed</option>
+							<option  id="Orange" value="Send Farmer to RBK">Send Farmer to RBK</option>
 							</select>
 						</div>
 					</div>
 					<div class="modal-footer">
 						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-						<input type="submit" class="btn btn-info" value="Save">
+						<input type="submit" class="btn btn-info" value="Save" onclick="changecolor()">
 					</div>
 				</form>
 			</div>
@@ -332,13 +332,10 @@ function myFunction() {
 
 <script>
 	function changecolor() {
-let Opened = document.getElementById('${document.data().bank}').value;
-document.style.backgroundColor= green;
-}
-let Closed = document.getElementById('${document.data().bank}').value;
+let red = document.getElementById('Red').value;
 document.style.backgroundColor= red;
 }
-let Send Farmer to RBK = document.getElementById('${document.data().bank}').value;
+let orange = document.getElementById('Orange').value;
 document.style.backgroundColor= orange;
 }
 </script>
