@@ -86,8 +86,8 @@ table.table tr th:last-child {
 }
 
 table.table-striped tbody tr:nth-of-type(odd) {
-    background-color: #F0FFFF;
-	color: #778899;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
 	width: 100%;
 }
 
