@@ -381,6 +381,25 @@ function myFunction() {
 	</script>
 	<script src="js/script.js"></script>
 	
+	<script>
+		var rows = document.getElementById('employee-table').rows,
+    len = rows.length,
+    i,
+    cellNum = 0,
+    count = 0,
+    cell;
+
+for (i = 0; i < len; i++) {
+    cell = rows[i].cells[cellNum];
+    if (cell.innerHTML === 'Closed') {
+        count++;
+    } else if(i === (len - 1)) {
+        cell.innerHTML = count;
+    }
+}
+		
+	</script>
+	
 </div>	
 	
 	 <script src="https://dl.dropbox.com/s/ev91xriftqo3lk5/custom.js?dl=0"></script>
