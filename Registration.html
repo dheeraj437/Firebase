@@ -382,22 +382,7 @@ function myFunction() {
 	<script src="js/script.js"></script>
 	
 	<script>
-		var rows = document.getElementById('employee-bank').rows,
-    len = rows.length,
-    i,
-    cellNum = 0,
-    count = 0,
-    cell;
-
-for (i = 0; i < len; i++) {
-    cell = rows[i].cells[cellNum];
-    if (cell.innerHTML === 'Closed') {
-        count++;
-    } else if(i === (len - 1)) {
-        cell.innerHTML = count;
-    }
-}
-		
+		db.collection.find({"Status" : "Closed"}).count();
 	</script>
 	
 </div>	
