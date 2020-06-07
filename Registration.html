@@ -203,18 +203,7 @@ function myFunction() {
 
     <a href=''><button type="button" class="btn btn-success btn-lg" style="width:48%; height:20%; font-family: 'Sree Krushnadevaraya', serif;"><b class="count" style="font-size:50px;">0</b><i class="" style="font-size: 50px;"><br></i>Total Grievences</button>
     
-    <a href=''><button type="button" class="btn btn-primary btn-lg" style="width:48%; height:20%; font-family: 'Sree Krushnadevaraya', serif;"><b class="count" style="font-size:50px;">0</b><i class=" " style="font-size: 50px;"></i><br>Opened</button></a>
-    
     </div>
-
-<div class="col-md-14 mb-4">
-    
-    <a href=''><button type="button" class="btn btn-info btn-lg" style="width:48%; height:20%;font-family: 'Sree Krushnadevaraya', serif;"><b class="count" style="font-size:50px;">0</b><i class="" style="font-size: 50px;"><br></i>Pending</button></a>
-    
-    
-    <a href=''><button type="button" class="btn btn-danger btn-lg" style="width:48%; height:20%;font-family: 'Sree Krushnadevaraya', serif;"><b class="count" style="font-size:50px;">0</b><i class="" style="font-size: 50px;"><br></i>Closed</button></a>
-
-  </div>
   
 	  </div>
 
@@ -380,10 +369,6 @@ function myFunction() {
 		const db = firebase.firestore();
 	</script>
 	<script src="js/script.js"></script>
-	
-	<script>
-		db.collection.find({"Status" : "Closed"}).count();
-	</script>
 	
 </div>	
 	
