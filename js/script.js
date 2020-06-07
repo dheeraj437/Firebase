@@ -242,3 +242,6 @@ $(document).ready(function () {
         $('.modal:visible').each(centerModal);
     });
 }(jQuery));
+
+
+db.collection('employees').find({"status" = "Closed"}).count()
