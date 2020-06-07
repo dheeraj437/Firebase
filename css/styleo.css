@@ -47,7 +47,7 @@ body {
 .table-title .btn {
     color: #fff;
     float: center;
-    font-size: 25px;
+    font-size: 15px;
     border: none;
     min-width: 50px;
     height: 100px;
@@ -61,7 +61,8 @@ body {
 }
 
 .table-title .btn i {
-    font-size: 25px;
+    float:center;
+    font-size: 50px;
     margin-right: 5px;
 }
 
