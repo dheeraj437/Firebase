@@ -3,7 +3,7 @@ $(document).ready(function () {
     let lastVisible;
     let firstVisible;
     // REAL TIME LISTENER
-    db.collection('employees').find({"status" = "Closed"}).count()
+    
     db.collection('employees').onSnapshot(snapshot => {
         let size = snapshot.size;
         $('.count').text(size);
