@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Login</title>
+  <title>Welcome to RBK</title>
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://dl.dropbox.com/s/kmywa5yqxd04icy/style.css" />
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 
@@ -30,14 +31,49 @@ body {font-family: Arial, Helvetica, sans-serif;}
   font-size: 30px;
 	font-family: 'Sree Krushnadevaraya', serif;
 }
+
+.dashboard {
+  width: 100%;
+  overflow: hidden;
+  height: 40px;	
+  text-align: center;
+  position: -webkit-sticky;
+  border: 1px solid;
+  box-shadow: 5px 5px green;
+  position: sticky;
+  top: 0;
+  background: #FFFFFF;
+  color: green;
+  font-size:20px;
+  font-weight: 400;
+  font-family: 'Sree Krushnadevaraya', serif;
+}
 	
 	img {
   width: 100px;
   height: 100px;	
-  margin-left: 120px;
+  
 		
 		
 }
+
+.btn1 {
+  background-color: DodgerBlue;
+  border: white;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  margin-left:9%;
+ 
+ 
+  
+}
+
+
+
 	
 </style>
 <body>
@@ -46,7 +82,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	<p> గొడవర్రు రైతు భరోసా కేంద్రము</p>
 </div>
 
-  <div id="login_div" class="main-div">
+<div id="login_div" class="main-div">
     <h3> </h3>
 	 
 <img src="images/Account-512.png">
@@ -144,22 +180,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 	
 </style>
-	
-<div id="user_div">
-<div class="logoutt">	
-<p id="user_para"></p>
-<button onclick="logout()" style=" background: #5d8ffc; 
-				  color: #fff; 
-				  border: 1px solid #5d8ffc; 
-				  border-radius: 5px; 
-				  padding: 10px;
-				  padding-bottom: 10px;
-  width: 100px;
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s; ">Logout</button>
 
-</div>
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -169,44 +191,136 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
 
 </head>
-	
+
+<div class="imghide">
+	<img src="images/jl.jpg" alt="" class="responsive" style="width:100px; height:120px; margin-left:10px; padding-top:10px;">
+
+<button class="btn1" onclick="logout()"><i class="fa fa-home"></i>  Logout</button></a>
+    
+    <img src="images/ag.png" alt="" class="responsive" style="width:120px; height:120px; margin-right:10px; float:right;padding-top:10px;" >
+</div>
+
+<br>
+
+<div class="dashboard">
+<div class="user_div">
+	<p id="user_para"></p>
+</div>
+</div>
+
+<br>
+
+<div class="container">
+  <button type="button" class="btn btn-danger">E KARSHAK</button>
+  <button type="button" class="btn btn-info">CCRC</button>
+  <button type="button" class="btn btn-primary">D KRISHI</button>
+  <button type="button" class="btn btn-warning">MARKET</button>
+</div>
+
+<br>
+
+<div class="dashboard">
+	<p><i class="fa fa-home"></i>  Dashboard</p>
+</div>
+
 	<br>
+
+
+<head>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<style>
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(-20deg);
+	background: #555;
+}
+
+.box1 { 
+                float:left;  
+                background:Red; 
+                width:50%; 
+                height:280px; 
+                font-family: 'Sree Krushnadevaraya', serif;
+            } 
+.box2{ 
+                float:left;  
+                background:Green; 
+                width:50%; 
+                height:280px;
+                font-family: 'Sree Krushnadevaraya', serif;
+                }
+                
+.box3{ 
+                float:left;  
+                background:Green; 
+                width:50%; 
+                height:280px;
+                font-family: 'Sree Krushnadevaraya', serif;
+                }  
+                
+.text{ 
+
+text-align: center;
+padding-top: 10px;
+
+                
+                
+</style>
 
 <div class="container-fluid">
 	
 <div class="col-md-14 mb-4">
 
-    <a href='https://www.rbkyenamalakuduru.tk/registration.html'><button type="button" class="btn btn-success btn-lg" style="width:48%; height:20%; font-family: 'Sree Krushnadevaraya', serif;"><i class="fa fa-user-plus" style="font-size: 50px;"><br></i> <br><br>రైతు స్పందన</button>
-    
-    <a href='https://ysrrythubharosa.ap.gov.in/RBApp/RB/Phase2Paymentstatus'><button type="button" class="btn btn-primary btn-lg" style="width:48%; height:20%; font-family: 'Sree Krushnadevaraya', serif;"><i class="fa fa-slideshare " style="font-size: 50px;"><br></i> <br><br>రైతు భరోసా స్థితి</button></a>
+    <div class="box1" style="width: 18%;height: 70px; transform: skew(-20deg); background: white;  box-shadow: 5px 10px 18px #888888;"><i class="fa fa-inr" style="font-size: 40px; padding-left:20px; padding-top:15px;"></i></div>
+
+<div class="box2" style="width: 2%;height: 70px; transform: skew(-20deg); background: lightgreen;"></div>
+
+<div class="box3" style="width: 80%;height: 70px; transform: skew(-20deg); background: darkgreen; box-shadow: 5px 10px 18px #888888; color:white;margin-bottom: 20px;"><div class="text" style="font-size:25px;"> రైతు స్పందన </div></div>
     
     </div>
 
+<br> 
+<br>
+
 <div class="col-md-14 mb-4">
 
-    <a href='https://pmkisan.gov.in/beneficiarystatus/beneficiarystatus.aspx'><button type="button" class="btn btn-danger btn-lg" style="width:48%; height:20%;font-family: 'Sree Krushnadevaraya', serif;"><i class="fa fa-inr" style="font-size: 50px;"><br></i> <br><br>P. M. కిసాన్ స్థితి</button></a>
-    
-    <a href='#'><button type="button" class="btn btn-info btn-lg" style="width:48%; height:20%;font-family: 'Sree Krushnadevaraya', serif;"><i class="fa fa-check-circle" style="font-size: 50px;"><br></i> <br><br> స్పందన  స్థితి</button></a>
+    <div class="box1" style="width: 18%;height: 70px; transform: skew(-20deg); background: white;  box-shadow: 5px 10px 18px #888888;"><i class="fa fa-inr" style="font-size: 40px;padding-left:20px; padding-top:15px;"><br></i></div>
+
+<div class="box2" style="width: 2%;height: 70px; transform: skew(-20deg); background: lightgreen;"></div>
+
+<div class="box3" style="width: 80%;height: 70px; transform: skew(-20deg); background: darkgreen; box-shadow: 5px 10px 18px #888888; color:white; margin-bottom: 20px;"><div class="text" style="font-size:25px;">స్పందన  స్థితి</div></div>
 
   </div>
 	
 <div class="col-md-14 mb-4">
 
-    <a href='https://resident.uidai.gov.in/bank-mapper'><button type="button" class="btn btn-warning btn-lg" style="width:48%; height:20%;font-family: 'Sree Krushnadevaraya', serif;"><i class="fa fa-university" style="font-size: 50px;"><br></i> <br><br> N.P.C.I స్థితి</button></a>
-    
-    <a href='http://push73.sps.ap.gov.in/spsnew/MIS_Unsurveyed/MIS_US_Unsurveyed?Id=web'><button type="button" class="btn btn-dark btn-lg" style="width:48%; height:20%;font-family: 'Sree Krushnadevaraya', serif;"><i class="fa fa-id-badge" style="font-size: 50px;"><br></i> <br><br>P.S.S స్థితి</button></a>
+     <div class="box1" style="width: 18%;height: 70px; transform: skew(-20deg); background: white;  box-shadow: 5px 10px 18px #888888;"><i class="fa fa-inr" style="font-size: 40px; padding-left:20px; padding-top:15px;"><br></i></div>
+
+<div class="box2" style="width: 2%;height: 70px; transform: skew(-20deg); background: lightgreen;"></div>
+
+<div class="box3" style="width: 80%;height: 70px; transform: skew(-20deg); background: darkgreen; box-shadow: 5px 10px 18px #888888; color:white; margin-bottom: 20px;"><div class="text" style="font-size:25px;">రైతు భరోసా స్థితి</div></div>
+
+  </div>
+  
+  <div class="col-md-14 mb-4">
+
+     <div class="box1" style="width: 18%;height: 70px; transform: skew(-20deg); background: white;  box-shadow: 5px 10px 18px #888888;"><i class="fa fa-inr" style="font-size: 40px; padding-left:20px; padding-top:15px;"><br></i></div>
+
+<div class="box2" style="width: 2%;height: 70px; transform: skew(-20deg); background: lightgreen;"></div>
+
+<div class="box3" style="width: 80%;height: 70px; transform: skew(-20deg); background: darkgreen; box-shadow: 5px 10px 18px #888888; color:white; margin-bottom: 20px;"><div class="text" style="font-size:25px;">* స్థితి</div></div>
 
   </div>
 	  </div>
-
-
-<script type="text/javascript">
-    document.getElementById("myButton").onclick = function () {
-        location.href = "https://www.rbkyenamalakuduru.tk/registration";
-    };
-</script>
-
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+      
+      
+      <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script>
     // Initialize Firebase
     var config = {
@@ -233,3 +347,4 @@ body {font-family: Arial, Helvetica, sans-serif;}
       
 
 </html>
+
