@@ -10,6 +10,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+
 
 </head>
 
@@ -98,8 +102,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
       <div>అధికారిక అంతర్గత విభాగాల ఉపయోగాల కోసం మరియు రైతుల సంక్షేమం మరియు వారి అభివృద్ధి కోసం వెబ్‌సైట్ రూపొందించబడింది. <br>
       అన్ని హక్కులూ ప్రత్యేకించుకోవడమైనది ®. <br> © 2020 - R.B.K గొడవర్రు </div>
 		  </div>
-	</div>  
-
+	  
+</div>
 <div class="footer">
   <p style="font-family: 'Sree Krushnadevaraya', serif;">© 2020 - R.B.K గొడవర్రు </p>
 </div>	
@@ -178,19 +182,31 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	position: sticky; 
 	top: 80;
 }
+
+.user {
+  width: 100%;
+  overflow: hidden;
+  height: 40px;	
+  text-align: center;
+  position: -webkit-sticky;
+  border: 1px solid;
+  box-shadow: 5px 5px green;
+  position: sticky;
+  top: 0;
+  background: #FFFFFF;
+  color: green;
+  font-size:20px;
+  font-weight: 400;
+  font-family: 'Sree Krushnadevaraya', serif;
+}
+	
 	
 </style>
 
-  
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<div id="user_div" >
+<p id="user_para" class="user"></p>
+</div>
 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
-
-</head>
 
 <div class="imghide">
 	<img src="images/jl.jpg" alt="" class="responsive" style="width:100px; height:120px; margin-left:10px; padding-top:10px;">
@@ -201,11 +217,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </div>
 
 <br>
-
-<div class="dashboard">
-<div class="user_div">
-	<p id="user_para"></p>
-</div>
 
 
 <br>
@@ -317,11 +328,13 @@ padding-top: 10px;
 <div class="box3" style="width: 80%;height: 70px; transform: skew(-20deg); background: darkgreen; box-shadow: 5px 10px 18px #888888; color:white; margin-bottom: 20px;"><div class="text" style="font-size:25px;">* స్థితి</div></div>
 
   </div>
-	  </div>
-	</div>
+  </div>
+  
+</div>	  
       
       
-      <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  
   <script>
     // Initialize Firebase
     var config = {
@@ -336,7 +349,7 @@ padding-top: 10px;
   </script>
   <script src="https://dl.dropbox.com/s/6b7fvuuori7bdy6/index.js"></script>
 
-</body>
+
 <style>
 	.telugu {
         font-family: 'Sree Krushnadevaraya', serif;
@@ -346,6 +359,6 @@ padding-top: 10px;
       }
       </style>
       
-
+</body>
 </html>
 
