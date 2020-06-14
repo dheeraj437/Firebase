@@ -18,7 +18,12 @@
 </head>
 
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-image: url("https://png.pngtree.com/element_our/png_detail/20181121/green-fluid-abstract-background-vector-png_244541.jpg");
+background-repeat: no-repeat;
+background-size: 100% 300px;
+}
 	
 	
 .header {
@@ -80,12 +85,80 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 	
 </style>
+
+<style>
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(-0deg);
+	background: #555;
+}
+
+.box1 { 
+                float:left;  
+                background:Red; 
+                width:50%; 
+                height:280px; 
+                font-family: 'Sree Krushnadevaraya', serif;
+            } 
+.box2{ 
+                float:left;  
+                background:Green; 
+                width:50%; 
+                height:280px;
+                font-family: 'Sree Krushnadevaraya', serif;
+                }
+                
+.box3{ 
+                float:left;  
+                background:Green; 
+                width:50%; 
+                height:280px;
+                font-family: 'Sree Krushnadevaraya', serif;
+                }  
+                
+.text{ 
+
+text-align: center;
+padding-top: 10px;
+}
+
+.rbk {
+margin-top: 30px;
+margin-left: 50px;
+}
+                
+</style>
 <body>
 
 	<div class="header">
 	<p> గొడవర్రు రైతు భరోసా కేంద్రము</p>
 </div>
+<head>
 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+
+</head>
+
+<img src="https://ysrcp.fan/wp-content/uploads/2019/11/navaratnaalu-logo-2.png" alt="" class="responsive" style="width:150px; height:140px; float:right; margin-top:20px; margin-right:20px;">
+   
+   
+  <div class="rbk"> 
+  <button type="button" class="btn btn-success" style="font-weight:800; font-size: 30px; background-color:darkgreen;">R</button>
+  <button type="button" class="btn btn-success" style="font-weight:800; font-size: 30px;background-color:darkgreen;">B</button>
+  <button type="button" class="btn btn-success" style="font-weight:800; font-size: 30px; background-color:darkgreen;">K</button>
+  </div>
+</div>
+
+<br>
+
+  <br>  
+  <br>
+  <br>
+  
+ 
 <div id="login_div" class="main-div">
     <h3> </h3>
 	 
@@ -97,30 +170,27 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <input type="password" placeholder="Password..." id="password_field" />
 
     <button onclick="login()">Login to Account</button>
-	  
-	  <div class="telugu">
-      <div>అధికారిక అంతర్గత విభాగాల ఉపయోగాల కోసం మరియు రైతుల సంక్షేమం మరియు వారి అభివృద్ధి కోసం వెబ్‌సైట్ రూపొందించబడింది. <br>
-      అన్ని హక్కులూ ప్రత్యేకించుకోవడమైనది ®. <br> © 2020 - R.B.K గొడవర్రు </div>
-		  </div>
-	  
+  
 </div>
 <div class="footer">
-  <p style="font-family: 'Sree Krushnadevaraya', serif;">© 2020 - R.B.K గొడవర్రు </p>
+  <p style="font-family: 'Sree Krushnadevaraya', serif; margin-left:20px;">© 2020 - R.B.K గొడవర్రు </p>
 </div>	
+
 <style>
 .footer {
    position: fixed;
+   color: green;
    padding-top: 10px;	
    left: 0;
    bottom: 0;
    width: 100%;
    overflow: hidden;
-   height: 40px;
-   background-color: green;
-   color: white;
-   text-align: center;
+   height: 100px;
+   background-image: url("https://img.pngio.com/does-a-well-designed-footer-bring-value-to-a-webpage-page-footer-png-606_214.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100px;
+   text-align: left;
 }
-</style>
 	
 <style>
 
@@ -184,9 +254,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .user {
-  width: 100%;
+  width: 50%;
   overflow: hidden;
-  height: 40px;	
+  height: 60px;	
   text-align: center;
   position: -webkit-sticky;
   border: 1px solid;
@@ -195,7 +265,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   top: 0;
   background: #FFFFFF;
   color: green;
-  font-size:20px;
+  font-size:15px;
   font-weight: 400;
   font-family: 'Sree Krushnadevaraya', serif;
 }
@@ -203,34 +273,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	
 </style>
 
-<div id="user_div" >
-<p id="user_para" class="user"></p>
 
 
-<div class="imghide">
-	<img src="images/jl.jpg" alt="" class="responsive" style="width:100px; height:120px; margin-left:10px; padding-top:10px;">
-
-<button class="btn1" onclick="logout()"><i class="fa fa-home"></i>  Logout</button></a>
-    
-    <img src="images/ag.png" alt="" class="responsive" style="width:120px; height:120px; margin-right:10px; float:right;padding-top:10px;" >
-</div>
-
-<br>
-
-<div class="container">
-  <button type="button" class="btn btn-danger">E KARSHAK</button>
-  <button type="button" class="btn btn-info">CCRC</button>
-  <button type="button" class="btn btn-primary">D KRISHI</button>
-  <button type="button" class="btn btn-warning">MARKET</button>
-</div>
-
-<br>
-
-<div class="dashboard">
-	<p><i class="fa fa-home"></i>  Dashboard</p>
-</div>
-
-	<br>
+<div id="user_div">
+<button id="user_para" class="user"></button>
+<button onclick="logout()" style="float:right; width:40%; height:60px;box-shadow: 5px 5px green; background: #E10000; color:white; border:none;font-weight:600; font-size:18px;font-family: Arial, Helvetica, sans-serif;text-decoration: none;">LOGOUT</button>
 
 
 <head>
@@ -275,11 +322,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 text-align: center;
 padding-top: 10px;
+}
 
-                
-                
 </style>
-
 <div class="container-fluid">
 	
 <div class="col-md-14 mb-4">
@@ -325,7 +370,8 @@ padding-top: 10px;
 
   </div>
   </div>
-  
+
+
 </div>	  
       
       
@@ -357,4 +403,3 @@ padding-top: 10px;
       
 </body>
 </html>
-
