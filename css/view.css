@@ -293,7 +293,7 @@ td:before {
 @media screen and (max-width:601px) {
 	table.mobile-optimised {
 		word-wrap:break-word;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+		box-shadow: 5px 10px 18px #888888
 	}
 	table.mobile-optimised thead {
 		display:none
@@ -322,7 +322,7 @@ td:before {
 	}
 	.mobile-optimised tbody tr {
 	width:100%;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	box-shadow: 5px 10px 18px #888888
 	}
 }
 
